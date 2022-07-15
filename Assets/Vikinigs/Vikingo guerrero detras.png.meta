@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: 8a8f727186ba4914994a16160dfa10bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1588066554359303625
+    second: Vikingo guerrero detras_0
+  - first:
+      213: 8297214642320607320
+    second: Vikingo guerrero detras_1
+  - first:
+      213: 6002329505654682616
+    second: Vikingo guerrero detras_2
+  - first:
+      213: 562091042789662235
+    second: Vikingo guerrero detras_3
+  - first:
+      213: -8051872888908894385
+    second: Vikingo guerrero detras_4
+  - first:
+      213: -545653417504212086
+    second: Vikingo guerrero detras_5
+  - first:
+      213: 2616739468590363313
+    second: Vikingo guerrero detras_6
+  - first:
+      213: 6646849168655021854
+    second: Vikingo guerrero detras_7
+  - first:
+      213: 6900450391723457518
+    second: Vikingo guerrero detras_8
+  - first:
+      213: 6471702155155481231
+    second: Vikingo guerrero detras_9
+  - first:
+      213: 8822487936677383184
+    second: Vikingo guerrero detras_10
+  - first:
+      213: 6236606438696960111
+    second: Vikingo guerrero detras_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vikingo guerrero detras_0
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 6333
+        width: 855
+        height: 1023
+      alignment: 9
+      pivot: {x: 0.4081712, y: 0.078667216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7323cbbf1ed06f9e0800000000000000
+      internalID: -1588066554359303625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo guerrero detras_1
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 6329
+        width: 852
+        height: 1024
+      alignment: 9
+      pivot: {x: 0.41460308, y: 0.080527306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85880b4b1c0a52370800000000000000
+      internalID: 8297214642320607320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo guerrero detras_2
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 5150
+        width: 860
+        height: 1023
+      alignment: 9
+      pivot: {x: 0.40331343, y: 0.08548454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3b46932ee8c4350800000000000000
+      internalID: 6002329505654682616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo guerrero detras_3
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 5146
+        width: 860
+        height: 1023
+      alignment: 9
+      pivot: {x: 0.4077245, y: 0.081193104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e18e843d2fcc700800000000000000
+      internalID: 562091042789662235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo guerrero detras_4
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 3925
+        width: 1073
+        height: 1023
+      alignment: 9
+      pivot: {x: 0.33455423, y: 0.08276129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4facf7a440024090800000000000000
+      internalID: -8051872888908894385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo guerrero detras_5
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 3921
+        width: 1069
+        height: 1023
+      alignment: 9
+      pivot: {x: 0.33813226, y: 0.08457313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bfe279b137d68f0800000000000000
+      internalID: -545653417504212086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo guerrero detras_6
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2654
+        width: 974
+        height: 1023
+      alignment: 9
+      pivot: {x: 0.36200416, y: 0.09016736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2b21fbea6805420800000000000000
+      internalID: 2616739468590363313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo guerrero detras_7
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 2650
+        width: 978
+        height: 1023
+      alignment: 9
+      pivot: {x: 0.37083462, y: 0.08413186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1778453a1a5e3c50800000000000000
+      internalID: 6646849168655021854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo guerrero detras_8
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1474
+        width: 769
+        height: 963
+      alignment: 9
+      pivot: {x: 0.41993767, y: 0.038014445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebb1e4321353cf50800000000000000
+      internalID: 6900450391723457518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo guerrero detras_9
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1471
+        width: 768
+        height: 962
+      alignment: 9
+      pivot: {x: 0.4284846, y: 0.035560276}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f822c2252da10d950800000000000000
+      internalID: 6471702155155481231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo guerrero detras_10
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 329
+        width: 910
+        height: 997
+      alignment: 9
+      pivot: {x: 0.4287346, y: 0.060032424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c03dce806cf6a70800000000000000
+      internalID: 8822487936677383184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo guerrero detras_11
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 325
+        width: 913
+        height: 997
+      alignment: 9
+      pivot: {x: 0.43708685, y: 0.058067422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6042765380ec8650800000000000000
+      internalID: 6236606438696960111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 25b490d68c7dd0646af52f67a8ec9c2c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

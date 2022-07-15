@@ -1,0 +1,552 @@
+fileFormatVersion: 2
+guid: 8912c17ad0d6ff44fa8288f3eca4cd25
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3384181003359282799
+    second: vikingos trabajando_0
+  - first:
+      213: -2082260179968245904
+    second: vikingos trabajando_1
+  - first:
+      213: 6926114070721157006
+    second: vikingos trabajando_2
+  - first:
+      213: 2787361499087222171
+    second: vikingos trabajando_3
+  - first:
+      213: 1475384112853665357
+    second: vikingos trabajando_4
+  - first:
+      213: 4007462801931756131
+    second: vikingos trabajando_5
+  - first:
+      213: -292484213293914063
+    second: vikingos trabajando_6
+  - first:
+      213: 8225610876885747140
+    second: vikingos trabajando_7
+  - first:
+      213: -8972181778850310406
+    second: vikingos trabajando_8
+  - first:
+      213: -6101774320972608825
+    second: vikingos trabajando_9
+  - first:
+      213: -4968410622254587037
+    second: vikingos trabajando_10
+  - first:
+      213: 9221113695624175010
+    second: vikingos trabajando_11
+  - first:
+      213: -7808083285890182910
+    second: vikingos trabajando_12
+  - first:
+      213: 8338688638078310359
+    second: vikingos trabajando_13
+  - first:
+      213: 3822474012022665933
+    second: vikingos trabajando_14
+  - first:
+      213: -8643702227682871421
+    second: vikingos trabajando_15
+  - first:
+      213: 5416526919715220743
+    second: vikingos trabajando_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vikingos trabajando_0
+      rect:
+        serializedVersion: 2
+        x: 3954
+        y: 6477
+        width: 762
+        height: 947
+      alignment: 9
+      pivot: {x: 0.44886374, y: 0.17494494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199152fbe49f801d0800000000000000
+      internalID: -3384181003359282799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos trabajando_1
+      rect:
+        serializedVersion: 2
+        x: 4880
+        y: 6483
+        width: 751
+        height: 947
+      alignment: 9
+      pivot: {x: 0.45330316, y: 0.17083038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f3d0b06635a13e0800000000000000
+      internalID: -2082260179968245904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos trabajando_2
+      rect:
+        serializedVersion: 2
+        x: 5843
+        y: 6515
+        width: 936
+        height: 946
+      alignment: 9
+      pivot: {x: 0.35847148, y: 0.17872022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e875b2b1d008e1060800000000000000
+      internalID: 6926114070721157006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos trabajando_3
+      rect:
+        serializedVersion: 2
+        x: 6946
+        y: 6515
+        width: 939
+        height: 946
+      alignment: 9
+      pivot: {x: 0.35456342, y: 0.1762587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95b1bde382bea620800000000000000
+      internalID: 2787361499087222171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos trabajando_4
+      rect:
+        serializedVersion: 2
+        x: 8213
+        y: 6467
+        width: 941
+        height: 1031
+      alignment: 9
+      pivot: {x: 0.48406783, y: 0.18978086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46c5e1a80e997410800000000000000
+      internalID: 1475384112853665357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos trabajando_5
+      rect:
+        serializedVersion: 2
+        x: 3901
+        y: 5155
+        width: 809
+        height: 947
+      alignment: 9
+      pivot: {x: 0.41869906, y: 0.17753689}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362ebb79f2e5d9730800000000000000
+      internalID: 4007462801931756131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos trabajando_6
+      rect:
+        serializedVersion: 2
+        x: 4827
+        y: 5155
+        width: 757
+        height: 950
+      alignment: 9
+      pivot: {x: 0.44414502, y: 0.1785552}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138e43c5823e0fbf0800000000000000
+      internalID: -292484213293914063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos trabajando_7
+      rect:
+        serializedVersion: 2
+        x: 5790
+        y: 5192
+        width: 983
+        height: 947
+      alignment: 9
+      pivot: {x: 0.341931, y: 0.17342286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c54d59e28d372270800000000000000
+      internalID: 8225610876885747140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos trabajando_8
+      rect:
+        serializedVersion: 2
+        x: 6896
+        y: 5192
+        width: 989
+        height: 947
+      alignment: 9
+      pivot: {x: 0.33305126, y: 0.16834772}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6156375386c7380800000000000000
+      internalID: -8972181778850310406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos trabajando_9
+      rect:
+        serializedVersion: 2
+        x: 3939
+        y: 3891
+        width: 872
+        height: 947
+      alignment: 9
+      pivot: {x: 0.38893002, y: 0.16847765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cac3da6594225ba0800000000000000
+      internalID: -6101774320972608825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos trabajando_10
+      rect:
+        serializedVersion: 2
+        x: 4870
+        y: 3896
+        width: 756
+        height: 951
+      alignment: 9
+      pivot: {x: 0.44891325, y: 0.17847835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363ec32ecd8ac0bb0800000000000000
+      internalID: -4968410622254587037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos trabajando_11
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 3928
+        width: 926
+        height: 947
+      alignment: 9
+      pivot: {x: 0.35583627, y: 0.17998242}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad1b25fc0af7ff70800000000000000
+      internalID: 9221113695624175010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos trabajando_12
+      rect:
+        serializedVersion: 2
+        x: 6933
+        y: 3928
+        width: 952
+        height: 951
+      alignment: 9
+      pivot: {x: 0.3528232, y: 0.17538308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201d9d7de9d14a390800000000000000
+      internalID: -7808083285890182910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos trabajando_13
+      rect:
+        serializedVersion: 2
+        x: 3949
+        y: 2595
+        width: 746
+        height: 947
+      alignment: 9
+      pivot: {x: 0.44800067, y: 0.18053181}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d75e35d229f8b370800000000000000
+      internalID: 8338688638078310359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos trabajando_14
+      rect:
+        serializedVersion: 2
+        x: 4875
+        y: 2600
+        width: 830
+        height: 947
+      alignment: 9
+      pivot: {x: 0.40261966, y: 0.18053207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2f5c19cd72c0530800000000000000
+      internalID: 3822474012022665933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos trabajando_15
+      rect:
+        serializedVersion: 2
+        x: 5838
+        y: 2632
+        width: 724
+        height: 947
+      alignment: 9
+      pivot: {x: 0.46225196, y: 0.16749258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387b5b6ce966b0880800000000000000
+      internalID: -8643702227682871421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos trabajando_16
+      rect:
+        serializedVersion: 2
+        x: 6943
+        y: 2632
+        width: 672
+        height: 951
+      alignment: 9
+      pivot: {x: 0.49368358, y: 0.17934299}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d67f5198e5b2b40800000000000000
+      internalID: 5416526919715220743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

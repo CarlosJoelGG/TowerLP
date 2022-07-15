@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Build
+  - madera
+  - piedra
+  - Unit
+  - Selector
+  - Ground
+  - Canvas
+  - playerSistem
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - unit
+  - madera
+  - circulo
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: background
+    uniqueID: 3240348611
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: icons
+    uniqueID: 3895415285
+    locked: 0
+  - name: selec
+    uniqueID: 4100924295
+    locked: 0
+  - name: Ui
+    uniqueID: 2403544945
+    locked: 0

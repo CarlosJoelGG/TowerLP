@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: b9a3f73b5279bbd46a6e15d71223b5e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8958975093699749565
+    second: pruebas edificios_0
+  - first:
+      213: -8255080034874527252
+    second: pruebas edificios_1
+  - first:
+      213: 6350666112972491409
+    second: pruebas edificios_2
+  - first:
+      213: -5408437194946576241
+    second: pruebas edificios_3
+  - first:
+      213: 3167492149015984614
+    second: pruebas edificios_4
+  - first:
+      213: 7721717630859862179
+    second: pruebas edificios_5
+  - first:
+      213: 5174041493001382899
+    second: pruebas edificios_6
+  - first:
+      213: -6223682611132102221
+    second: pruebas edificios_7
+  - first:
+      213: 843147190208592904
+    second: pruebas edificios_8
+  - first:
+      213: -9026975979002618941
+    second: pruebas edificios_9
+  - first:
+      213: -844044152928272327
+    second: pruebas edificios_10
+  - first:
+      213: -4402066306390085058
+    second: pruebas edificios_11
+  - first:
+      213: 6381747480624637649
+    second: pruebas edificios_12
+  - first:
+      213: 3400366748836033189
+    second: pruebas edificios_13
+  - first:
+      213: 2513665050371559703
+    second: pruebas edificios_14
+  - first:
+      213: -6218898840632640450
+    second: pruebas edificios_15
+  - first:
+      213: 6739276349491219009
+    second: pruebas edificios_16
+  - first:
+      213: -1577011239651629640
+    second: pruebas edificios_17
+  - first:
+      213: -2877070708545851793
+    second: pruebas edificios_18
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pruebas edificios_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 639
+        width: 130
+        height: 121
+      alignment: 9
+      pivot: {x: 0.5088237, y: 0.009171289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34954747e935ba380800000000000000
+      internalID: -8958975093699749565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas edificios_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 648
+        width: 91
+        height: 143
+      alignment: 9
+      pivot: {x: 0.50455767, y: 0.018535908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce172e01270107d80800000000000000
+      internalID: -8255080034874527252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas edificios_2
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 651
+        width: 104
+        height: 132
+      alignment: 9
+      pivot: {x: 0.47607186, y: 0.012976906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a06d6be29122850800000000000000
+      internalID: 6350666112972491409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas edificios_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 632
+        width: 114
+        height: 155
+      alignment: 9
+      pivot: {x: 0.49999973, y: -0.03989061}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80033db60f51f4b0800000000000000
+      internalID: -5408437194946576241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas edificios_4
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 460
+        width: 99
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5, y: -0.014987691}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9bfe2d35135fb20800000000000000
+      internalID: 3167492149015984614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas edificios_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 456
+        width: 134
+        height: 169
+      alignment: 9
+      pivot: {x: 0.52561724, y: -0.019404123}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0e54b164d092b60800000000000000
+      internalID: 7721717630859862179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas edificios_6
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 469
+        width: 101
+        height: 92
+      alignment: 9
+      pivot: {x: 0.503834, y: -0.029669058}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbaa7b1353edc740800000000000000
+      internalID: 5174041493001382899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas edificios_7
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 447
+        width: 112
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5059084, y: 0.0016462326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b902b0c3a901a9a0800000000000000
+      internalID: -6223682611132102221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas edificios_8
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 331
+        width: 77
+        height: 76
+      alignment: 9
+      pivot: {x: 0.50814927, y: 0.015622189}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c70cdf6e573bb00800000000000000
+      internalID: 843147190208592904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas edificios_9
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 325
+        width: 112
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5027234, y: -0.003561056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb909f8c2db9b280800000000000000
+      internalID: -9026975979002618941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas edificios_10
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 329
+        width: 106
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5117219, y: -0.026834412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93007f9905a5944f0800000000000000
+      internalID: -844044152928272327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas edificios_11
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 332
+        width: 65
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5136268, y: -0.0022315586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3237e97408b8e2c0800000000000000
+      internalID: -4402066306390085058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas edificios_12
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 333
+        width: 89
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5333019, y: -0.016325558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d620ec8585809850800000000000000
+      internalID: 6381747480624637649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas edificios_13
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 138
+        width: 99
+        height: 140
+      alignment: 9
+      pivot: {x: 0.4924695, y: -0.005889021}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2fb6aca87803f20800000000000000
+      internalID: 3400366748836033189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas edificios_14
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 138
+        width: 136
+        height: 108
+      alignment: 9
+      pivot: {x: 0.49999988, y: -0.0047371476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71116bb9b0552e220800000000000000
+      internalID: 2513665050371559703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas edificios_15
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 138
+        width: 129
+        height: 148
+      alignment: 9
+      pivot: {x: 0.50676733, y: -0.003329509}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cb00e147802b9a0800000000000000
+      internalID: -6218898840632640450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas edificios_16
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 149
+        width: 97
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5115476, y: -0.031762786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a8d963228b68d50800000000000000
+      internalID: 6739276349491219009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas edificios_17
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 14
+        width: 125
+        height: 102
+      alignment: 9
+      pivot: {x: 0.5119283, y: -0.013120625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b524c502a45d1ae0800000000000000
+      internalID: -1577011239651629640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruebas edificios_18
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 16
+        width: 81
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5031693, y: -0.0031797504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e61771f679218d0800000000000000
+      internalID: -2877070708545851793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

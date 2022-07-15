@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4cbc1f06380376b47a47ae85d1566039
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Hartone Softed
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7a74e5a6f40654b4ba4029c06c7d104a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

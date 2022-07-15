@@ -1,0 +1,408 @@
+fileFormatVersion: 2
+guid: 82a356174c1f5dd4190d9b3848f914af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3878690225296614568
+    second: edificos vikingos parte 1_0
+  - first:
+      213: 7544203766946350032
+    second: edificos vikingos parte 1_1
+  - first:
+      213: 7816076027689209494
+    second: edificos vikingos parte 1_2
+  - first:
+      213: -1889840893206739352
+    second: edificos vikingos parte 1_3
+  - first:
+      213: 6153134349770152930
+    second: edificos vikingos parte 1_4
+  - first:
+      213: -6335557910138201121
+    second: edificos vikingos parte 1_5
+  - first:
+      213: 3765347837824488165
+    second: edificos vikingos parte 1_6
+  - first:
+      213: -2089460396906365338
+    second: edificos vikingos parte 1_7
+  - first:
+      213: -8332219631470629795
+    second: edificos vikingos parte 1_8
+  - first:
+      213: 5241889127248201149
+    second: edificos vikingos parte 1_9
+  - first:
+      213: 3604935390249596130
+    second: edificos vikingos parte 1_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: edificos vikingos parte 1_0
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 9694
+        width: 2344
+        height: 1893
+      alignment: 9
+      pivot: {x: 0.4917057, y: 0.3229337}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4a590b530e3d530800000000000000
+      internalID: 3878690225296614568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edificos vikingos parte 1_1
+      rect:
+        serializedVersion: 2
+        x: 3836
+        y: 9709
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3400aea5562b860800000000000000
+      internalID: 7544203766946350032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edificos vikingos parte 1_2
+      rect:
+        serializedVersion: 2
+        x: 3841
+        y: 9425
+        width: 1887
+        height: 2244
+      alignment: 9
+      pivot: {x: 0.5000008, y: 0.19328539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e8cdf5cb7487c60800000000000000
+      internalID: 7816076027689209494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edificos vikingos parte 1_3
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 9231
+        width: 2454
+        height: 2526
+      alignment: 9
+      pivot: {x: 0.49803334, y: 0.22674884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866c76e68bfe5c5e0800000000000000
+      internalID: -1889840893206739352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edificos vikingos parte 1_4
+      rect:
+        serializedVersion: 2
+        x: 4222
+        y: 9397
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebdd452713546550800000000000000
+      internalID: 6153134349770152930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edificos vikingos parte 1_5
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 7321
+        width: 1962
+        height: 2051
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbdb40e5a39318a0800000000000000
+      internalID: -6335557910138201121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edificos vikingos parte 1_6
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 9120
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e25059a8e3314430800000000000000
+      internalID: 3765347837824488165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edificos vikingos parte 1_7
+      rect:
+        serializedVersion: 2
+        x: 3367
+        y: 8154
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e3626e6deb003e0800000000000000
+      internalID: -2089460396906365338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edificos vikingos parte 1_8
+      rect:
+        serializedVersion: 2
+        x: 4919
+        y: 3753
+        width: 4014
+        height: 4781
+      alignment: 9
+      pivot: {x: 0.5039746, y: 0.19058451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c28a324620e5c80800000000000000
+      internalID: -8332219631470629795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edificos vikingos parte 1_9
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 3736
+        width: 3087
+        height: 3064
+      alignment: 9
+      pivot: {x: 0.5017952, y: 0.25764406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db58c95736eeeb840800000000000000
+      internalID: 5241889127248201149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edificos vikingos parte 1_10
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 161
+        width: 3366
+        height: 3275
+      alignment: 9
+      pivot: {x: 0.4807988, y: 0.30265313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4bf0e33ad470230800000000000000
+      internalID: 3604935390249596130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d60a78ba43cdf3b49a6c69bd58708716
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

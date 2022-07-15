@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: 9ea9a08efd7242e4b98c5534f8f57f4c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8748271402710986055
+    second: vikingos prueba_0
+  - first:
+      213: -3490385939089507767
+    second: vikingos prueba_1
+  - first:
+      213: 8751892361805156253
+    second: vikingos prueba_2
+  - first:
+      213: -3712593210938101538
+    second: vikingos prueba_3
+  - first:
+      213: -7411902786390275712
+    second: vikingos prueba_4
+  - first:
+      213: -3387633859162829583
+    second: vikingos prueba_5
+  - first:
+      213: -3336370183038579582
+    second: vikingos prueba_6
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vikingos prueba_0
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 5750
+        width: 1936
+        height: 1505
+      alignment: 9
+      pivot: {x: 0.49150577, y: 0.29518953}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74deb4d8d7a186970800000000000000
+      internalID: 8748271402710986055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos prueba_1
+      rect:
+        serializedVersion: 2
+        x: 3409
+        y: 5888
+        width: 2286
+        height: 1257
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40476573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a3d833b78af8fc0800000000000000
+      internalID: -3490385939089507767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos prueba_2
+      rect:
+        serializedVersion: 2
+        x: 6059
+        y: 5700
+        width: 1511
+        height: 1421
+      alignment: 9
+      pivot: {x: 0.4933318, y: 0.20928538}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fc9d9cbb7f47970800000000000000
+      internalID: 8751892361805156253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos prueba_3
+      rect:
+        serializedVersion: 2
+        x: 8326
+        y: 5298
+        width: 2274
+        height: 2274
+      alignment: 9
+      pivot: {x: 0.47631085, y: 0.34996796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0f18215283a7cc0800000000000000
+      internalID: -3712593210938101538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos prueba_4
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 3098
+        width: 2819
+        height: 2264
+      alignment: 9
+      pivot: {x: 0.4697739, y: 0.28675342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089ca7b8fa1a32990800000000000000
+      internalID: -7411902786390275712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos prueba_5
+      rect:
+        serializedVersion: 2
+        x: 3559
+        y: 3264
+        width: 2039
+        height: 2021
+      alignment: 9
+      pivot: {x: 0.476377, y: 0.22160491}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc838b14f4bcf0d0800000000000000
+      internalID: -3387633859162829583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vikingos prueba_6
+      rect:
+        serializedVersion: 2
+        x: 6086
+        y: 1124
+        width: 3154
+        height: 3626
+      alignment: 9
+      pivot: {x: 0.47970754, y: 0.18032186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cc7c0def4d2b1d0800000000000000
+      internalID: -3336370183038579582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

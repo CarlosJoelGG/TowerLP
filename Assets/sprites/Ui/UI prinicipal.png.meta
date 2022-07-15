@@ -1,0 +1,804 @@
+fileFormatVersion: 2
+guid: 4a105bb4624bfd942ac353ceb102634c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3562536904651393514
+    second: UI prinicipal_0
+  - first:
+      213: 2698706719882768399
+    second: UI prinicipal_1
+  - first:
+      213: 2288193530614401435
+    second: UI prinicipal_2
+  - first:
+      213: 6845503024540215825
+    second: UI prinicipal_3
+  - first:
+      213: 2306594249424923757
+    second: UI prinicipal_4
+  - first:
+      213: 2072106799164190118
+    second: UI prinicipal_5
+  - first:
+      213: 3991589502103116537
+    second: UI prinicipal_6
+  - first:
+      213: -528635108731363175
+    second: UI prinicipal_7
+  - first:
+      213: 2558384295126547371
+    second: UI prinicipal_8
+  - first:
+      213: -7902048230076199961
+    second: UI prinicipal_9
+  - first:
+      213: 4173794117268187527
+    second: UI prinicipal_10
+  - first:
+      213: -3219096901413914879
+    second: UI prinicipal_11
+  - first:
+      213: -194400032176789237
+    second: UI prinicipal_12
+  - first:
+      213: 2375013515026317405
+    second: UI prinicipal_13
+  - first:
+      213: 5064886739355071695
+    second: UI prinicipal_14
+  - first:
+      213: 2562863122818722054
+    second: UI prinicipal_15
+  - first:
+      213: -1329796888426467590
+    second: UI prinicipal_16
+  - first:
+      213: -470137833414941981
+    second: UI prinicipal_17
+  - first:
+      213: -1301211302872990643
+    second: UI prinicipal_18
+  - first:
+      213: 8299104014888546519
+    second: UI prinicipal_19
+  - first:
+      213: -7752021014710380787
+    second: UI prinicipal_20
+  - first:
+      213: 5878035316801189403
+    second: UI prinicipal_21
+  - first:
+      213: -6733096423996593740
+    second: UI prinicipal_22
+  - first:
+      213: 5181985384542470
+    second: UI prinicipal_23
+  - first:
+      213: -5528142502027707246
+    second: UI prinicipal_24
+  - first:
+      213: 7771093930976241978
+    second: UI prinicipal_25
+  - first:
+      213: 362821112085570923
+    second: UI prinicipal_26
+  - first:
+      213: -5407305174549126295
+    second: UI prinicipal_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI prinicipal_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 809
+        width: 256
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae947fc807ca07130800000000000000
+      internalID: 3562536904651393514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 958
+        width: 79
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00729f967bb37520800000000000000
+      internalID: 2698706719882768399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_2
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 949
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b994e9984eb41cf10800000000000000
+      internalID: 2288193530614401435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_3
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 961
+        width: 98
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ae4965bbc100f50800000000000000
+      internalID: 6845503024540215825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_4
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 955
+        width: 79
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c6eedbf3ba20020800000000000000
+      internalID: 2306594249424923757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_5
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 945
+        width: 88
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad6ad4c72a91cc10800000000000000
+      internalID: 2072106799164190118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_6
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 963
+        width: 106
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fad80af089f46730800000000000000
+      internalID: 3991589502103116537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_7
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 961
+        width: 94
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99064406b29e9a8f0800000000000000
+      internalID: -528635108731363175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_8
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 952
+        width: 85
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babb4f526f4318320800000000000000
+      internalID: 2558384295126547371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_9
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 789
+        width: 91
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebcd486009465290800000000000000
+      internalID: -7902048230076199961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_10
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 788
+        width: 93
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789a26dc2ab4ce930800000000000000
+      internalID: 4173794117268187527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_11
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 611
+        width: 317
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107b9a57c687353d0800000000000000
+      internalID: -3219096901413914879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_12
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 703
+        width: 301
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0927c1633a5d4df0800000000000000
+      internalID: -194400032176789237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_13
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 702
+        width: 333
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5045e3653eb5f020800000000000000
+      internalID: 2375013515026317405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_14
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 604
+        width: 258
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc478de87a71a4640800000000000000
+      internalID: 5064886739355071695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_15
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 603
+        width: 303
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609ee8b7e6e119320800000000000000
+      internalID: 2562863122818722054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_16
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 503
+        width: 255
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afeabe986cc9b8de0800000000000000
+      internalID: -1329796888426467590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_17
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 508
+        width: 230
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2a4d3a12cb979f0800000000000000
+      internalID: -470137833414941981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_18
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 424
+        width: 189
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c3882d63b21fde0800000000000000
+      internalID: -1301211302872990643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_19
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 376
+        width: 178
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0337981275c2370800000000000000
+      internalID: 8299104014888546519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_20
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 140
+        width: 118
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0713d685f94b6490800000000000000
+      internalID: -7752021014710380787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_21
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 138
+        width: 201
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16b22b3af9f29150800000000000000
+      internalID: 5878035316801189403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_22
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 110
+        width: 215
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9ea31d97c3f82a0800000000000000
+      internalID: -6733096423996593740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_23
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 40
+        width: 270
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601b31efcf8621000800000000000000
+      internalID: 5181985384542470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_24
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 36
+        width: 240
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c36ea0fa71843b0800000000000000
+      internalID: -5528142502027707246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_25
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 52
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a396808d1c878db60800000000000000
+      internalID: 7771093930976241978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_26
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 47
+        width: 190
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b656fde01eff80500800000000000000
+      internalID: 362821112085570923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI prinicipal_27
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 46
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9632ed6c79465f4b0800000000000000
+      internalID: -5407305174549126295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 33306b5c074b9654fb72bddcfd78ce93
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
