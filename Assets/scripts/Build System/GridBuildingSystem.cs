@@ -81,11 +81,28 @@ public class GridBuildingSystem : MonoBehaviour
         }
     }
 
+    public void CasabotonesOnOff(bool a)
+    {
+       
+            for (int i = 0; i < casas.Count; i++)
+            {
+                if (i != 1 && i!=0)
+                {
+                    {
+                        casas[i].interaccion.SetActive(a);
+                        casas[i].menudesplegado = a;
+                    }
+                   // camMove.moveralcentro(casas[i].gameObject.transform.position);
+                }
+                
+            }  
+       
+    }
     public void CasaPropiedades(int a)
     {
         for (int i = 0; i < casas.Count; i++)
         {
-            if (i == a)
+            if (i == a && (a != 0 && a != 1))
             {
                 if (!casas[i].menudesplegado)
                 { casas[i].interaccion.SetActive(true);

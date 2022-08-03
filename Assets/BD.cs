@@ -10,6 +10,8 @@ public class BD : MonoBehaviour
     public valueslider Madera,mineral,coins;
 	public DataService ds;
 	public Usuario people;
+	public List<Item> Items;
+	public Misiones mision;
 	public List<int> limiteCasas,limiteMoneda,numerodeCasas;
 	public IEnumerable<escuadron> soldados;
 	public List<escuadron> SoldadosEscuadrones;
@@ -18,15 +20,31 @@ public class BD : MonoBehaviour
 	public List<objetos> predefinidos;
 	public GridBuildingSystem Construir;
 	public IEnumerable<objetos> obj;
+	public IEnumerable<Item> Slot;
 	public List<BuildingSystem> planos;
+	public List<string> misionestexto;
+	public List<Misiones> misioneslista;
+	public IEnumerable<Misiones> misionesobjeto;
 	public ubicarmundo mundo;
 	public bool tutorial=false;
 	public bool PVES = false;
 	public spawnerunits unidadeee;
 	// Start is called before the first frame update
+
+	public List<Misiones> getmisiones()
+	{
+		List<Misiones> listaM=new List<Misiones>();
+		foreach (Misiones OdM in misionesobjeto)
+		{
+			listaM.Add(OdM);
+		}
+
+		return listaM;
+	}
 	void Start()
 	{
 		ds = new DataService("Tower.db");
+		
 		if (PVES)
 		{
 			people = ds.GetUsuario(1);
@@ -41,17 +59,44 @@ public class BD : MonoBehaviour
 		}
 		else
 		{
-			predefinidos = new List<objetos>();
 			
-
+			predefinidos = new List<objetos>();
+			misioneslista = new List<Misiones>();
+			Items = new List<Item>();
+			
 			if (ds.ExisteTabla("usuario", 0))
 			{
 				people = ds.GetUsuario(1);
+				misionesobjeto = ds.GetMisiones(1);
+				Slot = ds.GetItems(1);
+				foreach (Item OdM in Slot)
+				{
+					Items.Add(OdM);
+				}
 			}
 			else
 			{
 				ds.CreateTablaUsuario();
 				people = ds.GetUsuario(1);
+				Misiones ag = new Misiones();
+				for (int i = 0; i < misionestexto.Count; i++)
+				{
+					ag = new Misiones();
+					misioneslista.Add(ag.llenar(misionestexto[i]));
+					//misioneslista[i].llenar(misionestexto[i]);
+				}
+				
+				
+				ds.CreateMisiones(misioneslista);
+				misionesobjeto=ds.GetMisiones(1);
+				
+				ds.CreateItem(LlenarItems());
+				Slot = ds.GetItems(1);
+				foreach (Item OdM in Slot)
+				{
+					Items.Add(OdM);
+				}
+
 			}
 
 			if (tutorial)
@@ -101,6 +146,52 @@ public class BD : MonoBehaviour
 		}
 	}
 
+	public bool verificarCoins(int tipoA)
+	{
+		if (people.Coin + tipoA < limiteMoneda[0])
+		{
+			people.Coin += tipoA;
+			RefrescarUsuario();
+			refrescarmonedas();
+			return true; 
+		}
+		return false;
+	}
+	public bool verificarMadera(int tipoA)
+	{
+		if (people.Madera + tipoA < limiteMoneda[2])
+		{
+			people.Madera += tipoA;
+			RefrescarUsuario();
+			refrescarmonedas();
+			return true;
+		}
+		
+		return false;
+	}
+	public bool verificarRecursos(int tipoA)
+	{
+		if (people.Mineral + tipoA < limiteMoneda[1])
+		{
+			people.Mineral += tipoA;
+			RefrescarUsuario();
+			refrescarmonedas();
+			return true;
+		}
+		return false;
+	}
+	public void refrescarItem(Item a)
+	{
+		ds.updateItem(a);
+	}
+	public bool verificarSoldados(int tipoA)
+	{
+		return false;
+	}
+	public void updatemision(Misiones a)
+	{
+		ds.modificarMision(a);
+	}
 	public void refrescarmonedas()
 	{
 		coins.refresh(people.Coin);
@@ -155,7 +246,7 @@ public class BD : MonoBehaviour
 					break;
 
 			}
-	
+		RefrescarUsuario();
 		refrescarmonedas();
 		return residuo;
 	}
@@ -312,8 +403,69 @@ public class BD : MonoBehaviour
 	
 		return aux;
 	}
-		// Update is called once per frame
-		void Update()
+
+	public string ItemDescr(int a)
+	{
+		string b = "";
+		switch (a)
+		{
+			case 0:
+				b = "Un paquete lleno de Monedas:";
+				break;
+			case 1:
+				b = "Un paquete lleno de Comida:";
+				break;
+			case 2:
+				b = "Un paquete lleno de Madera:";
+				break;
+			case 3:
+				break;
+		}
+		return b;
+	}
+	public string ItemNombre(int a)
+	{
+		string b = "";
+		switch (a)
+		{
+			case 0://Coin
+				b = "Monedas";
+				break;
+			case 1://mineral
+				b = "Alimentos";
+				break;
+			case 2://madera
+				b = "Madera";
+				break;
+			case 3:
+				break;
+		}
+		return b;
+	}
+	public IEnumerable<Item> LlenarItems()
+	{
+		Item aa = new Item();
+		for (int i = 0; i < 3; i++)
+		{//Id, index, descripcion, nombre, rareza, Cantidad, Id_User
+			for (int j = 0; j < 3; j++)
+			{
+				aa = new Item();
+				aa.Id_User = 1;
+				aa.index = i;
+				aa.descripcion = ItemDescr(i);
+				aa.nombre = ItemNombre(i);
+				aa.rareza = j;
+				aa.Cantidad = 1;
+				Items.Add(aa);
+			}
+
+		}
+		IEnumerable<Item> aux = Items;
+
+		return aux;
+	}
+	// Update is called once per frame
+	void Update()
     {
         
     }

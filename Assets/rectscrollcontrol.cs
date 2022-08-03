@@ -9,6 +9,8 @@ public class rectscrollcontrol : MonoBehaviour
     public List<RectTransform> contenido;
     public ScrollRect scroll;
     public List<Image> botones;
+    public List<Sprite> OverBotones;
+    //public Image Ibotones;
     public Color claro, oscuro;
 
     // Start is called before the first frame update
@@ -25,12 +27,14 @@ public class rectscrollcontrol : MonoBehaviour
             {
                 contenido[i].transform.gameObject.SetActive(true);
                 scroll.content = contenido[i];
-                botones[i].color = claro;
+                botones[i].sprite = OverBotones[i];
+                //botones[i].color = claro;
             }
             else
             { 
                 contenido[i].transform.gameObject.SetActive(false);
-                botones[i].color = oscuro;
+                botones[i].sprite = OverBotones[i + contenido.Count];
+                //botones[i].color = oscuro;
             }
         }
 

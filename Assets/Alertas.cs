@@ -7,7 +7,7 @@ public class Alertas : MonoBehaviour
 {
     public Image casa;
     public BuildingSystem dataActual;
-    public GameObject Aler,alertinfo;
+    public GameObject Aler,alertinfo,misiones;
     public void Aceptar()
     {
         dataActual.mejorar();
@@ -18,6 +18,10 @@ public class Alertas : MonoBehaviour
         dataActual.AlertaOff();
         Aler.SetActive(false);
         alertinfo.SetActive(false);
+    }
+    public void Misiones()
+    {
+        mostrar(4, null);
     }
     public void mostrar(int a,BuildingSystem b)
     {
@@ -39,6 +43,12 @@ public class Alertas : MonoBehaviour
                 Sprite k = dataActual.misdatos.IAlerta;
                 int Z=dataActual.misdatos.intLevel;
                 Aler.GetComponent<mensajeObjeto>().upgrade(x,y,z,w,k,Z);
+                break;
+            case 4://misiones
+                misiones.SetActive(true);
+                break;
+            case 5://inventario
+
                 break;
         }
     }

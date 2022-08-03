@@ -79,6 +79,20 @@ public class DataService  {
 			}
 		});
 	}
+	public void CreateItem(IEnumerable<Item> a)
+	{
+		_connection.DropTable<Item>();
+		_connection.CreateTable<Item>();
+		ToConsole(a);
+		_connection.InsertAll(a);
+	}
+	public void CreateMisiones(IEnumerable<Misiones> a)
+	{
+		_connection.DropTable<Misiones>();
+		_connection.CreateTable<Misiones>();
+		ToConsole(a);
+		_connection.InsertAll(a);
+	}
 	public void CreateTablaescuadron()
 	{
 		
@@ -157,6 +171,20 @@ public class DataService  {
 			ToConsole(person.ToString());
 		}
 	}
+	private void ToConsole(IEnumerable<Item> people)
+	{
+		foreach (Item person in people)
+		{
+			ToConsole(person.ToString());
+		}
+	}
+	private void ToConsole(IEnumerable<Misiones> people)
+	{
+		foreach (Misiones person in people)
+		{
+			ToConsole(person.ToString());
+		}
+	}
 	private void ToConsole(IEnumerable<escuadron> people)
 	{
 		foreach (escuadron person in people)
@@ -183,6 +211,11 @@ public class DataService  {
 	{
 		return _connection.Table<objetos>().Where(x => x.Id_User == a);
 		
+	}
+	public IEnumerable<Item> GetItems(int a)
+	{
+		return _connection.Table<Item>().Where(x => x.Id_User == a);
+
 	}
 	public IEnumerable<escuadron> GetEscuadrones(int a)
 	{
@@ -221,6 +254,17 @@ public class DataService  {
 	{
 		return _connection.Table<Usuario>().Where(x => x.Id == a).FirstOrDefault();
 	}
+	public IEnumerable<Misiones> GetMisiones(int a)
+	{
+		return _connection.Table<Misiones>().Where(x => x.Id_User == a);
+		
+	}
+	public int modificarMision(Misiones i)
+	{
+		Misiones p = i;
+		_connection.Update(p);
+		return _connection.Update(p);
+	}
 	public Usuario CreatePerson(){
 		//Debug.Log("CP");
 		Usuario p = new Usuario{
@@ -240,6 +284,11 @@ public class DataService  {
 		p.prim = false;
 		_connection.Update(p);
 		return p;
+	}
+	public void updateItem(Item a)
+	{
+		Item p = a;
+		_connection.Update(p);
 	}
 	public void CreateUsuario()
 	{

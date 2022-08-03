@@ -212,6 +212,7 @@ MonoBehaviour:
   TokenID: 0
   distancia: {x: 0, y: 0, z: 0}
   renSprite: {fileID: 2761708347427350803}
+  terminarobra: {fileID: 0}
   colisionando: 0
   chocando: 0
   moving: 0
@@ -280,9 +281,11 @@ MonoBehaviour:
   team: 0
   BDid: 0
   pos: {x: 0, y: -1, z: 0}
-  descripcion: 
+  descripcion: Esta Construccion es la encargada de guardar las monedas de oro de
+    tu ciudad.
   Inc: 0
   recursos: 0
+  barraca: 0
   IAlerta: {fileID: -8332219631470629795, guid: 82a356174c1f5dd4190d9b3848f914af,
     type: 3}
   titulo: Ayuntamiento

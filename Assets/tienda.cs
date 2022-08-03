@@ -47,7 +47,7 @@ public class tienda : MonoBehaviour
                 nueva[k].name = casasPre[k].name;
                 nueva[k].SetActive(true);
                 nueva[k].transform.localEulerAngles = new Vector3(0, 0, 0);
-                nueva[k].transform.localScale = new Vector3(1, 1, 1);
+                nueva[k].transform.localScale = new Vector3(1f, 1f, 1f);
                 nueva[k].transform.position = casasPre[k].transform.position;
 
             }
