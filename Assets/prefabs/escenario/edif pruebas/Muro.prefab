@@ -46,7 +46,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -142,9 +141,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b92ce74b76eae40b7a3bdceb29ffcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interaccion: {fileID: 0}
   size: {x: 1, y: 1}
-  selec: {fileID: 2898229517060877749}
-  selected: 0
+  cuadritos: {fileID: 0}
+  TokenID: 0
+  distancia: {x: 0, y: 0, z: 0}
+  renSprite: {fileID: 0}
+  terminarobra: {fileID: 0}
+  colisionando: 0
+  chocando: 0
+  moving: 0
+  posicion: {x: 0, y: 0, z: 0}
+  aux: {x: 0, y: 0, z: 0}
+  lastposition: {x: 0, y: 0, z: 0}
+  touchCoun: -1
+  estructura: {fileID: 0}
+  trabajadores: {fileID: 0}
+  indexbuild: -1
+  tocando: 0
+  misdatos: {fileID: 0}
+  push: {fileID: 0}
+  timeBuild:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  timeBuildRestante: 0
+  variante: 0.5
+  tipodemenu: 0
+  timeBar: {fileID: 0}
+  timeText: {fileID: 0}
+  precio: {x: 0, y: 0}
+  menudesplegado: 0
+  noRender: 0
+  rotacionlocla: {x: 0, y: 0, z: 0}
+  bD: {fileID: 0}
 --- !u!54 &4430321080897119384
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -218,7 +256,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -243,7 +280,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &3156276036402528242
 BoxCollider:
   m_ObjectHideFlags: 0

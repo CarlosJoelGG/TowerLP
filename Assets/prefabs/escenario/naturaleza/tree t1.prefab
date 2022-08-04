@@ -46,7 +46,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -68,7 +67,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 919506395
+  m_SortingLayerID: -1054618685
   m_SortingLayer: -1
   m_SortingOrder: 2
   m_Sprite: {fileID: -611222180709461582, guid: a375761a29f9bf64ab293d0ef895c938,
@@ -174,7 +173,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -211,6 +209,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2852673708675908134
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7934510205769138684}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 313e814c57183a949acd59d37de8ce73, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7994871525511603141
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,12 +275,12 @@ NavMeshObstacle:
   m_GameObject: {fileID: 7994871525511603141}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 0.25, y: 0.5, z: 0.25}
+  m_Shape: 0
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.64, z: 0}
   m_TimeToStationary: 0.5
 --- !u!65 &2936399478713467906
 BoxCollider:
@@ -311,6 +328,11 @@ MonoBehaviour:
   BDid: 0
   pos: {x: 0, y: -1, z: 0}
   descripcion: 
+  Inc: 0
+  recursos: 0
+  barraca: 0
+  IAlerta: {fileID: 0}
+  titulo: 
   MoneyPrice: 0
   WoodPrice: 0
   FoodPrice: 0
@@ -331,12 +353,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interaccion: {fileID: 0}
   size: {x: 1, y: 1}
-  selec: {fileID: 6483432645471732868}
   cuadritos: {fileID: 0}
-  precio: 0
   TokenID: 0
   distancia: {x: 0, y: 0, z: 0}
   renSprite: {fileID: 6483432645471732869}
+  terminarobra: {fileID: 0}
   colisionando: 0
   chocando: 0
   moving: 0
@@ -346,9 +367,9 @@ MonoBehaviour:
   touchCoun: -1
   estructura: {fileID: 7994871525511603141}
   trabajadores: {fileID: 7934510204735086152}
-  nivel: 0
   indexbuild: -1
   tocando: 0
+  misdatos: {fileID: 0}
   push: {fileID: 0}
   timeBuild:
   - 0
@@ -367,11 +388,11 @@ MonoBehaviour:
   tipodemenu: 0
   timeBar: {fileID: 0}
   timeText: {fileID: 0}
+  precio: {x: 0, y: 0}
   menudesplegado: 0
-  colorTransparente: {r: 1, g: 1, b: 1, a: 1}
-  sprite: {fileID: 0}
   noRender: 0
   rotacionlocla: {x: 0, y: 0, z: 0}
+  bD: {fileID: 0}
 --- !u!1001 &357513704449645181
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -464,22 +485,3 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 357513704449645181}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &2852673708675908134
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7934510205769138684}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 313e814c57183a949acd59d37de8ce73, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0

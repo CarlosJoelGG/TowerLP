@@ -46,7 +46,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -68,7 +67,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 919506395
+  m_SortingLayerID: -1054618685
   m_SortingLayer: -1
   m_SortingOrder: 2
   m_Sprite: {fileID: 4985949762647173279, guid: a375761a29f9bf64ab293d0ef895c938,
@@ -134,12 +133,12 @@ NavMeshObstacle:
   m_GameObject: {fileID: 6767353262887435591}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 1.75, y: 0.5, z: 1.75}
+  m_Shape: 0
+  m_Extents: {x: 2.24, y: 1, z: 2.24}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.7, z: 0}
   m_TimeToStationary: 0.5
 --- !u!65 &829508575431016210
 BoxCollider:
@@ -169,7 +168,14 @@ MonoBehaviour:
   playerid: 
   intLevel: 0
   team: 0
+  BDid: 0
   pos: {x: 0, y: -1, z: 0}
+  descripcion: 
+  Inc: 0
+  recursos: 0
+  barraca: 0
+  IAlerta: {fileID: 0}
+  titulo: 
   MoneyPrice: 0
   WoodPrice: 0
   FoodPrice: 0
@@ -188,19 +194,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b92ce74b76eae40b7a3bdceb29ffcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interaccion: {fileID: 0}
   size: {x: 1, y: 1}
-  selec: {fileID: 7701380869499312646}
-  precio: 0
+  cuadritos: {fileID: 0}
+  TokenID: 0
   distancia: {x: 0, y: 0, z: 0}
   renSprite: {fileID: 7701380869499312647}
+  terminarobra: {fileID: 0}
   colisionando: 0
   chocando: 0
   moving: 0
+  posicion: {x: 0, y: 0, z: 0}
+  aux: {x: 0, y: 0, z: 0}
+  lastposition: {x: 0, y: 0, z: 0}
   touchCoun: -1
   estructura: {fileID: 6767353262887435591}
   trabajadores: {fileID: 2618149979673246843}
-  nivel: 0
+  indexbuild: -1
   tocando: 0
+  misdatos: {fileID: 0}
   push: {fileID: 0}
   timeBuild:
   - 0
@@ -215,12 +227,15 @@ MonoBehaviour:
   - 0
   - 0
   timeBuildRestante: 0
+  variante: 0.5
+  tipodemenu: 0
   timeBar: {fileID: 0}
   timeText: {fileID: 0}
-  colorTransparente: {r: 1, g: 1, b: 1, a: 1}
-  sprite: {fileID: 0}
+  precio: {x: 0, y: 0}
+  menudesplegado: 0
   noRender: 0
   rotacionlocla: {x: 0, y: 0, z: 0}
+  bD: {fileID: 0}
 --- !u!1 &7701380869499312646
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,7 +283,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
