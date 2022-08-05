@@ -29,6 +29,7 @@ public class BD : MonoBehaviour
 	public bool tutorial=false;
 	public bool PVES = false;
 	public spawnerunits unidadeee;
+	public int version = 0; 
 	// Start is called before the first frame update
 
 	public List<Misiones> getmisiones()
@@ -44,7 +45,7 @@ public class BD : MonoBehaviour
 	void Start()
 	{
 		ds = new DataService("Tower.db");
-		
+
 		if (PVES)
 		{
 			people = ds.GetUsuario(1);
@@ -59,14 +60,28 @@ public class BD : MonoBehaviour
 		}
 		else
 		{
-			
+			iniciarT();
+		}
+	}
+
+	public void iniciarT()
+	{
+
 			predefinidos = new List<objetos>();
 			misioneslista = new List<Misiones>();
 			Items = new List<Item>();
-			
+
 			if (ds.ExisteTabla("usuario", 0))
 			{
 				people = ds.GetUsuario(1);
+				if (people.version != version)
+				{
+				ds.dropearTablas();
+				iniciarT();
+				return;
+				}
+				else
+				{ }
 				misionesobjeto = ds.GetMisiones(1);
 				Slot = ds.GetItems(1);
 				foreach (Item OdM in Slot)
@@ -76,7 +91,7 @@ public class BD : MonoBehaviour
 			}
 			else
 			{
-				ds.CreateTablaUsuario();
+				ds.CreateTablaUsuario(version);
 				people = ds.GetUsuario(1);
 				Misiones ag = new Misiones();
 				for (int i = 0; i < misionestexto.Count; i++)
@@ -85,11 +100,11 @@ public class BD : MonoBehaviour
 					misioneslista.Add(ag.llenar(misionestexto[i]));
 					//misioneslista[i].llenar(misionestexto[i]);
 				}
-				
-				
+
+
 				ds.CreateMisiones(misioneslista);
-				misionesobjeto=ds.GetMisiones(1);
-				
+				misionesobjeto = ds.GetMisiones(1);
+
 				ds.CreateItem(LlenarItems());
 				Slot = ds.GetItems(1);
 				foreach (Item OdM in Slot)
@@ -143,9 +158,8 @@ public class BD : MonoBehaviour
 
 				refrescarmonedas();
 			}
-		}
+		
 	}
-
 	public bool verificarCoins(int tipoA)
 	{
 		if (people.Coin + tipoA < limiteMoneda[0])
@@ -402,7 +416,7 @@ public class BD : MonoBehaviour
 			aa.Id_User = 1;
 			aa.Id_Obj = objetos[i].GetComponent<StateInf>().id;
 			aa.Level = objetos[i].GetComponent<StateInf>().intLevel;
-			aa.Horainit = DateTime.Now;
+			aa.Horainit = DateTime.UtcNow.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss");
 			aa.Inc = false;
 			predefinidos.Add(aa);
 			

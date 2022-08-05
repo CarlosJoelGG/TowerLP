@@ -50,6 +50,7 @@ public class GridBuildingSystem : MonoBehaviour
         buildFly = casas[a];
         buildFly.BSinicio();
         firstPoint = false;
+
         foot(true);
     }
     public void OnOffBotones(bool a)

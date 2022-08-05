@@ -13,7 +13,7 @@ public class StateInf : MonoBehaviour
     public bool barraca = false;
     public Sprite IAlerta;
     public string titulo="";
-    public DateTime inicio=DateTime.Now;
+    public string inicio="";
     public int MoneyPrice, WoodPrice, FoodPrice, chashPrice,id,marca; 
 
 
@@ -29,9 +29,11 @@ public class StateInf : MonoBehaviour
     public int sacarsegundos()
     {
         int b = 0;
+        string dia,noche;
+        noche=inicio;
         DateTime aux2 = new DateTime();
-        aux2 = DateTime.Now;
-        TimeSpan diff = aux2 - inicio;
+        dia = DateTime.UtcNow.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss");
+        TimeSpan diff = DateTime.Parse(dia) - DateTime.Parse(noche);
         //Debug.Log(aux2.ToString() + "-" + inicio.ToString() + "-" + diff.TotalSeconds);
         float c= Mathf.Abs(float.Parse(diff.TotalSeconds+""));
         //Debug.Log(Mathf.Abs(c)+"----"+diff.TotalSeconds);

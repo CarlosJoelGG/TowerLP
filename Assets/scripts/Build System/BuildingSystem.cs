@@ -161,7 +161,7 @@ public class BuildingSystem : MonoBehaviour
         int sec = misdatos.sacarsegundos();
         int diferenciaSec = int.Parse(Mathf.Abs(timeBuild[misdatos.intLevel]) + "") - sec;
 
-        Debug.Log(diferenciaSec+"--"+sec);
+        //Debug.Log(diferenciaSec+"--"+sec);
         if (diferenciaSec > 0)
         {
             if (diferenciaSec > 31536000)
@@ -290,7 +290,7 @@ public class BuildingSystem : MonoBehaviour
     {
         if (other.tag == "Build")
         {
-            var distance = Vector3.Distance(transform.position, other.transform.position);
+            float distance = Vector3.Distance(transform.position, other.transform.position);
                 free = false;
                 SetTransparent();
         }
@@ -300,6 +300,7 @@ public class BuildingSystem : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Build"))
         {
+            Debug.Log("--");
             colisionando++;
         }
         if(colisionando>0)
@@ -361,7 +362,7 @@ public class BuildingSystem : MonoBehaviour
     public void nextLevel()
     {
         misdatos.Inc = true;
-        misdatos.inicio = DateTime.Now;
+        misdatos.inicio = DateTime.UtcNow.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss"); 
     }
 
     private void OnTriggerExit(Collider other)

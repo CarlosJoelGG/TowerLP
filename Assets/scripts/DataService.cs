@@ -64,8 +64,15 @@ public class DataService  {
       //  Debug.Log("Final PATH: " + dbPath);     
 
 	}
-
-	public void CreateTablaUsuario(){
+	public void dropearTablas()
+	{
+		_connection.DropTable<Usuario>();
+		_connection.DropTable<Item>();
+		_connection.DropTable<Misiones>();
+		_connection.DropTable<escuadron>();
+		_connection.DropTable<objetos>();
+	}
+	public void CreateTablaUsuario(int a){
 		_connection.DropTable<Usuario> ();
 		_connection.CreateTable<Usuario> ();
 		_connection.InsertAll (new[]{
@@ -75,7 +82,8 @@ public class DataService  {
 				Mineral = 800,
 				Coin = 1500,
 				Exp=0,
-				prim=true
+				prim=true,
+				version=a
 			}
 		});
 	}
@@ -222,7 +230,7 @@ public class DataService  {
 	public void insertarObjetos(objetos i)
 	{
 		objetos p = i;
-		p.Horainit = DateTime.Now;
+		p.Horainit = DateTime.UtcNow.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss");
 		_connection.Insert(p);
 	}
 	public void insrtarEscuadrones(escuadron i)
@@ -242,7 +250,7 @@ public class DataService  {
 	{
 		objetos p = i;
 		if(!b)
-		p.Horainit = DateTime.Now;
+		p.Horainit = DateTime.UtcNow.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss");
 		_connection.Update(p);
 		return _connection.Update(p);
 	}

@@ -7,7 +7,7 @@ public class objetos
 
 	public int Id_User  { get; set; }
 	public int Id_Obj { get; set; }
-	public DateTime Horainit { get; set; }
+	public string Horainit { get; set; }
 
 	public int Level { get; set; }
 	public float x { get; set; }
