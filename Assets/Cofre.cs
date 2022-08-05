@@ -31,6 +31,7 @@ public class Cofre : MonoBehaviour
                 Objetos.Add(Instantiate(Prefab));
                 Objetos[aux].transform.parent = transform;
                 Objetos[aux].transform.localEulerAngles = new Vector3(0, 0, 0);
+                Objetos[aux].transform.localPosition = new Vector3(0, 0, 0);
                 Objetos[aux].transform.localScale = new Vector3(1,1,1);
                 Objetos[aux].GetComponent<inventarioSock>().LlenarObjeto(data.Items[i]);
                 aux++;

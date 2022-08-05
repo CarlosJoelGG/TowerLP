@@ -9,8 +9,14 @@ public class cambiarescena : MonoBehaviour
     public BD BDa;
     public void Accion()
     {
-        if(BDa.SoldadosEscuadrones!=null)
-        if(BDa.SoldadosEscuadrones.Count>0)
-        SceneManager.LoadScene(escena);
+        int a = 0;
+        if (BDa.SoldadosEscuadrones != null)
+        {for (int i = 0; i < BDa.SoldadosEscuadrones.Count; i++)
+            {
+                a += BDa.SoldadosEscuadrones[i].cantidad;
+            }
+            if (a > 0)
+                SceneManager.LoadScene(escena);
+        }
     }
 }

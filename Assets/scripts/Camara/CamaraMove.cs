@@ -31,7 +31,7 @@ public class CamaraMove : MonoBehaviour
 
     public Vector2 touchszoom1, touchszoom2;
     public float distancia,distancianew=0;
-    public bool moveUnits;
+    public bool moveUnits,zoom=false;
     public UnitSpawner spawner;
     public Vector3 point;
    
@@ -53,19 +53,23 @@ public class CamaraMove : MonoBehaviour
       //  Debug.Log("" + Input.touchCount);
         if (!move)
         {
-            if (Input.touchCount == 2)
+            if (zoom)
             {
+                if (Input.touchCount == 2)
+                {
 
-                distancianew = (Mathf.Abs(Input.GetTouch(1).position.x) - Mathf.Abs(Input.GetTouch(0).position.x)) + (Mathf.Abs(Input.GetTouch(1).position.y) - Mathf.Abs(Input.GetTouch(0).position.y));
-                if (nega)
-                    distancianew = distancianew * -1;
-                camaraszoom.cam.orthographicSize = camaraszoom.analizar(distancianew - distancia);
-               //s Debug.Log(distancianew - distancia + "distancia");
-            }
-            else
-            {
+                    distancianew = (Mathf.Abs(Input.GetTouch(1).position.x) - Mathf.Abs(Input.GetTouch(0).position.x)) + (Mathf.Abs(Input.GetTouch(1).position.y) - Mathf.Abs(Input.GetTouch(0).position.y));
+                    if (nega)
+                        distancianew = distancianew * -1;
+                    camaraszoom.cam.orthographicSize = camaraszoom.analizar(distancianew - distancia);
+                    //s Debug.Log(distancianew - distancia + "distancia");
+                }
+                else
+                {
                     move = true;
-                camaraszoom.guardar();
+                    camaraszoom.guardar();
+                    zoom = false;
+                }
             }
         }
         if (move)
@@ -301,6 +305,7 @@ public class CamaraMove : MonoBehaviour
             
                 if (Input.touchCount >= 2)
                 {
+                zoom = true;
                     if (Input.GetTouch(1).phase == TouchPhase.Began)
                     {
                         touchszoom1 = Input.GetTouch(0).position;

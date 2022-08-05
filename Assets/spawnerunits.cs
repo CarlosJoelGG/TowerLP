@@ -14,18 +14,19 @@ public class spawnerunits : MonoBehaviour
     void Start()
     {
         armada = new List<GameObject>();
-
+        int a = 0;
         for (int i = 0; i < bds.SoldadosEscuadrones.Count; i++)
         {
             for (int j = 0; j < bds.SoldadosEscuadrones[i].cantidad; j++)
             {
+                a++;
                 armada.Add(Instantiate(spwans[i]));
                 armada[armada.Count - 1].transform.position = posicionesSpawn[armada.Count - 1].transform.position;
                 armada[armada.Count - 1].transform.localScale = new Vector3(1, 1, 1);
             }
             
         }
-        vidaUsuario = bds.SoldadosEscuadrones.Count;
+        vidaUsuario = a;
     }
     public void backmundo()
     {
