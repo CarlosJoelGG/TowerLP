@@ -21,8 +21,9 @@ public class UnitsAi : MonoBehaviour
 
     public Vector3 lastPos;
 
-    public enum typeAttack { meele, range, boom}
+    public enum typeAttack { meele, range, area}
     public typeAttack tAttack;
+    public GameObject projectil;
     NavMeshAgent nav;
 
     public GameObject seleted;
@@ -30,10 +31,10 @@ public class UnitsAi : MonoBehaviour
     Rigidbody rb;
 
     public bool  enemygosCerca;
-   
+
     public UnitSpawner spawner;
     public int intSpawner;
-    
+
     [Header("ataque")]
     public float vidaMax;
     public float vida;
@@ -50,7 +51,7 @@ public class UnitsAi : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-       
+
         aiState = estado.parado;
         
         nav = GetComponent<NavMeshAgent>();
@@ -86,7 +87,6 @@ public class UnitsAi : MonoBehaviour
         {
             if (!anim.GetCurrentAnimatorStateInfo(0).IsName("dead"))
             {
-                
                 Destroy(gameObject, deadTime);
             }
             anim.SetTrigger("dead");
@@ -206,15 +206,35 @@ public class UnitsAi : MonoBehaviour
                             }
                             else// Atacar
                             {
-                                
-                                if (target.TryGetComponent<UnitsAi>(out UnitsAi infEnemy))
+                                if (tAttack == typeAttack.meele)//Meele
+                                {
+                                    if (target.TryGetComponent<UnitsAi>(out UnitsAi infEnemy))
+                                    {
+                                        aiState = estado.atacar;
+                                        anim.SetTrigger("attack");
+                                        attackDelay = attackTime;
+                                        infEnemy.vida -= str - infEnemy.armadura;
+                                    }
+                                }
+
+                                if (tAttack == typeAttack.range)//Range
                                 {
                                     aiState = estado.atacar;
                                     anim.SetTrigger("attack");
                                     attackDelay = attackTime;
-                                    infEnemy.vida -= str - infEnemy.armadura;
+
+                                    Vector3 pos = new Vector3(transform.position.x, transform.position.y + 0.5f, transform.position.z);
+                                    GameObject pro = Instantiate(projectil, transform.position, Quaternion.identity);
+
+                                    flecha fle = pro.GetComponent<flecha>();
+                                    fle.Team = team;
+                                    fle.Str = str;
+                                    fle.target = target.transform.position;
+
+                                    
                                 }
-                                
+
+
                             }
 
                         }

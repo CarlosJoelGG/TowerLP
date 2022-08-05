@@ -12,15 +12,32 @@ public class generarmisiones : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        listaM= data.getmisiones();
-        for (int i = 0+(3*index); i < 3+(3*index); i++)
+        iniciar();
+    }
+
+    public void destruirmisiones()
+    {
+        for (int i = 0; i < ML.Count; i++)
         {
-            
-            ML.Add(Instantiate(MisionesListaObjeto[listaM[i].tipo]));
-            ML[i].GetComponent<anadirdescricion>().In(listaM[i]);
-            ML[i].transform.parent = this.transform;
-            ML[i].transform.localEulerAngles = new Vector3(0, 0, 0);
-            ML[i].transform.localScale = new Vector3(1, 1, 1);
+            Destroy(ML[i]);
+        }
+        ML = new List<GameObject>();
+    }
+
+    public void iniciar()
+    {
+        destruirmisiones();
+        listaM = data.getmisiones();
+        for (int i = 0; i < MisionesListaObjeto.Count; i++)
+        {
+            if (!listaM[i].completada)
+            {
+                ML.Add(Instantiate(MisionesListaObjeto[listaM[i].tipo]));
+                ML[i].GetComponent<anadirdescricion>().In(listaM[i]);
+                ML[i].transform.parent = this.transform;
+                ML[i].transform.localEulerAngles = new Vector3(0, 0, 0);
+                ML[i].transform.localScale = new Vector3(1, 1, 1);
+            }
 
         }
     }

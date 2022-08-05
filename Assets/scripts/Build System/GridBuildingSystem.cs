@@ -38,10 +38,14 @@ public class GridBuildingSystem : MonoBehaviour
     {
         casas = new List<BuildingSystem>();
     }
+    public void MoverOnOff(bool a)
+    {
+        GameObject.Find("camara container").GetComponent<CamaraMove>().MoveOnOff(a);
+    }
     public void moverCasas(int a)
     {
         GameObject.Find("CanvasMain").GetComponent<Ui>().BuildingUi();
-        GameObject.Find("camara container").GetComponent<CamaraMove>().MoveOff();
+        GameObject.Find("camara container").GetComponent<CamaraMove>().MoveOnOff(false);
         CasaPropiedades(-1);
         buildFly = casas[a];
         buildFly.BSinicio();
@@ -71,7 +75,7 @@ public class GridBuildingSystem : MonoBehaviour
                 buildFly=null;
             }
             GameObject.Find("CanvasMain").GetComponent<Ui>().BuildingUi();
-            GameObject.Find("camara container").GetComponent<CamaraMove>().MoveOff();
+            GameObject.Find("camara container").GetComponent<CamaraMove>().MoveOnOff(false);
             CasaPropiedades(-1);
             buildFly = Instantiate(building);
             buildFly.BSinicio();
@@ -84,17 +88,12 @@ public class GridBuildingSystem : MonoBehaviour
     public void CasabotonesOnOff(bool a)
     {
        
-            for (int i = 0; i < casas.Count; i++)
+            for (int i = 2; i < casas.Count; i++)
             {
-                if (i != 1 && i!=0)
-                {
-                    {
                         casas[i].interaccion.SetActive(a);
-                        casas[i].menudesplegado = a;
-                    }
+                        casas[i].menudesplegado = a;        
                    // camMove.moveralcentro(casas[i].gameObject.transform.position);
-                }
-                
+ 
             }  
        
     }

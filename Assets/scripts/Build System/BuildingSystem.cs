@@ -115,16 +115,19 @@ public class BuildingSystem : MonoBehaviour
     }
     public void Accion()
     {
-        if (timeBar.value == timeBar.maxValue)
-        { 
-                terminar();
-            timeBar.value = 0;
-            bD.AddExp();
-        }
-        else
+        if (misdatos.id != 1 && misdatos.id != 0)
         {
-            if (timeBuildRestante <= 0)
-                GameObject.Find("Grid System").GetComponent<GridBuildingSystem>().CasaPropiedades(indexbuild);
+            if (timeBar.value == timeBar.maxValue)
+            {
+                terminar();
+                timeBar.value = 0;
+                bD.AddExp();
+            }
+            else
+            {
+                if (timeBuildRestante <= 0)
+                    GameObject.Find("Grid System").GetComponent<GridBuildingSystem>().CasaPropiedades(indexbuild);
+            }
         }
     }
     public void Start()

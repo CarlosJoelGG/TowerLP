@@ -97,20 +97,12 @@ public class DataService  {
 	{
 		
 	}
-	public void CreateTablaSoldados()
+	public void CreateTablaSoldados(IEnumerable<escuadron> a)
 	{
 		_connection.DropTable<escuadron>();
 		_connection.CreateTable<escuadron>();
 		//ToConsole(a);
-		_connection.InsertAll(new[]{
-			new escuadron{
-				Id = 0,
-				Id_User = 0,
-				Horainit= DateTime.Now,
-				Level=0,
-				Inc=false
-			}
-		});
+		_connection.InsertAll(a);
 	}
 	public void getTablaSoldados(IEnumerable<escuadron> a)
 	{
@@ -222,14 +214,18 @@ public class DataService  {
 		return _connection.Table<escuadron>().Where(x => x.Id_User == a);
 
 	}
-
+	public void UpdaterEscuadron(escuadron i)
+	{
+		escuadron p = i;
+		_connection.Update(p);
+	}
 	public void insertarObjetos(objetos i)
 	{
 		objetos p = i;
 		p.Horainit = DateTime.Now;
 		_connection.Insert(p);
 	}
-	public void insertarEscuadrones(escuadron i)
+	public void insrtarEscuadrones(escuadron i)
 	{
 		escuadron p;
 		p = new escuadron
@@ -237,7 +233,7 @@ public class DataService  {
 			Id_User = 1,
 			Horainit = DateTime.Now,
 			Level = 0,
-			Inc = false
+			cantidad = 0
 		};
 		//p.Horainit = DateTime.Now;
 		_connection.Insert(p);

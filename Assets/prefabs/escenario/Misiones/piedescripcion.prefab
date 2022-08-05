@@ -26,17 +26,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2406039410743699827}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: -0.00002056592}
-  m_LocalScale: {x: 0.60000014, y: 0.6000002, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 6064571400151175310}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 715, y: -7}
-  m_SizeDelta: {x: 64, y: 128}
+  m_AnchoredPosition: {x: 538, y: 13}
+  m_SizeDelta: {x: 194, y: 89}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7593759621450646691
 CanvasRenderer:
@@ -59,14 +59,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.5896226, b: 0.5896226, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7349108029439200126, guid: b0f8f14286cc8b54793356f0b7a9393d,
+  m_Sprite: {fileID: 8175646996315228044, guid: b502fdd7248d9524cbee160a4fff561a,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -91,7 +90,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
-    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -122,7 +120,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 4965440621630006126}
-        m_TargetAssemblyTypeName: accionPie, Assembly-CSharp
         m_MethodName: accion
         m_Mode: 1
         m_Arguments:
@@ -170,7 +167,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 810.12, y: 135.48}
+  m_SizeDelta: {x: 650, y: 135.48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7061387142296378444
 CanvasRenderer:
@@ -193,9 +190,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4716981, g: 0.2342231, b: 0.2247241, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -225,6 +221,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pieTexto: {fileID: 6683224271551880637}
   textopie: 
+  botonA: {fileID: 2406039410743699827}
+  botonComplete: {fileID: 8148495657495013891}
 --- !u!1 &3536922590093067264
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,8 +257,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 405.8224, y: 0}
-  m_SizeDelta: {x: 654.3552, y: 100}
+  m_AnchoredPosition: {x: 311.5, y: 0}
+  m_SizeDelta: {x: 482.9414, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5697162382722438054
 CanvasRenderer:
@@ -283,9 +281,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9905958, g: 1, b: 0.504717, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -364,7 +361,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.87910455, b: 0.2971698, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -445,7 +441,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.27203184, g: 1, b: 0.25, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -475,7 +470,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
-    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -506,7 +500,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 4965440621630006126}
-        m_TargetAssemblyTypeName: accionPie, Assembly-CSharp
         m_MethodName: accion
         m_Mode: 1
         m_Arguments:

@@ -5,16 +5,25 @@ using UnityEngine.SceneManagement;
 
 public class spawnerunits : MonoBehaviour
 {
-    public List<GameObject> spwans;
+    public List<GameObject> spwans,armada;
     public GameObject Ganaste,perdiste;
     public BD bds;
     public int vidasenemigas=6,vidaUsuario=1;
+    public List<GameObject> posicionesSpawn;
     // Start is called before the first frame update
     void Start()
     {
+        armada = new List<GameObject>();
+
         for (int i = 0; i < bds.SoldadosEscuadrones.Count; i++)
         {
-            spwans[i].SetActive(true);
+            for (int j = 0; j < bds.SoldadosEscuadrones[i].cantidad; j++)
+            {
+                armada.Add(Instantiate(spwans[i]));
+                armada[armada.Count - 1].transform.position = posicionesSpawn[armada.Count - 1].transform.position;
+                armada[armada.Count - 1].transform.localScale = new Vector3(1, 1, 1);
+            }
+            
         }
         vidaUsuario = bds.SoldadosEscuadrones.Count;
     }

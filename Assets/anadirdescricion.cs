@@ -10,12 +10,14 @@ public class anadirdescricion : MonoBehaviour
     public GameObject texto, Imagen,pie;
     public List<GameObject> des,indes;
     public GameObject padre;
+    public GameObject BDdata;
     private bool OnOff = false;
     public GameObject botonbajar;
     public GameObject guia;
     public Misiones datos;
     public string titulotexto;
     public Text Titulo,Rango;
+    public GameObject completar;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +27,7 @@ public class anadirdescricion : MonoBehaviour
         else
         Rango.text = datos.idR+"";*/
         string a = datastring();
-
+        BDdata = GameObject.Find("BD");
         pie.GetComponent<accionPie>().textopie = a;
     }
     public string datastring()
@@ -141,9 +143,9 @@ public class anadirdescricion : MonoBehaviour
             {
                 Imagen.GetComponent<Image>().sprite = descImagenes[i];
                 Imagen.GetComponent<Image>().SetNativeSize();
-                if (Imagen.GetComponent<Image>().rectTransform.sizeDelta.x > 750)
+                if (Imagen.GetComponent<Image>().rectTransform.sizeDelta.x > 240)
                 {
-                    Imagen.GetComponent<Image>().rectTransform.sizeDelta = new Vector2(750, 750);
+                    Imagen.GetComponent<Image>().rectTransform.sizeDelta = new Vector2(240, 240);
                 }
                 Imagen.GetComponent<Image>().color = Color.white;
 
@@ -175,7 +177,23 @@ public class anadirdescricion : MonoBehaviour
             Destroy(indes[i]);
         }
         des = new List<GameObject>();
+        indes = new List<GameObject>();
+
+
+    }
+
+    public void CompletarAccion()
+    {
+        datos.completada = true;
+        BDdata.GetComponent<BD>().updatemision(datos);
+        string[] a = datos.reward.Split('-');
+        for (int i = 0; i < 3; i++)
+        { 
+            BDdata.GetComponent<BD>().AddRecursos(i,int.Parse(a[i]));
+        }
+       
         
+            transform.parent.gameObject.GetComponent<generarmisiones>().iniciar();
     }
     // Update is called once per frame
     void Update()
@@ -183,5 +201,21 @@ public class anadirdescricion : MonoBehaviour
         Canvas.ForceUpdateCanvases();  // *
         this.transform.parent.GetComponent<VerticalLayoutGroup>().enabled = false; // **
         this.transform.parent.GetComponent<VerticalLayoutGroup>().enabled = true;
+
+        switch (datos.idR)
+        {
+            case 0:///Recursos
+                break;
+            case 1:///edificios
+                int a = BDdata.GetComponent<BD>().numerodeCasas[datos.idR_H];
+                introducir_progreso(a);
+                if (datos.progreso >= datos.meta)
+                {
+                    completar.SetActive(true);
+                }
+                break;
+            case 2://batallas
+                break;
+        }
     }
 }

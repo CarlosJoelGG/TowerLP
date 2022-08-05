@@ -342,12 +342,12 @@ public class CamaraMove : MonoBehaviour
     }
 
 
-    public void MoveOn()
+    public void Moven()
     {
-        //move = true;
+        move = true;
     }
-    public void MoveOff()
+    public void MoveOnOff(bool a)
     {
-        //move = false;
+        move = a;
     }
 }

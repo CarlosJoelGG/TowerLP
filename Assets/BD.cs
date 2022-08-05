@@ -124,7 +124,7 @@ public class BD : MonoBehaviour
 				}
 				else
 				{
-					ds.CreateTablaSoldados();
+					ds.CreateTablaSoldados(LlenarEscuadron());
 					soldados = ds.GetEscuadrones(people.Id);
 				}
 				SoldadosEscuadrones = new List<escuadron>();
@@ -204,6 +204,10 @@ public class BD : MonoBehaviour
 	}
 	public void refreshsoldados()
 	{
+		for (int i = 0; i < SoldadosEscuadrones.Count; i++)
+		{
+			ds.UpdaterEscuadron(SoldadosEscuadrones[i]);
+		}
 		soldados = ds.GetEscuadrones(people.Id);
 		SoldadosEscuadrones = new List<escuadron>();
 		foreach (escuadron OdM in soldados)
@@ -321,12 +325,16 @@ public class BD : MonoBehaviour
 	{
 
 		int aux = 0;
-		aux = SoldadosEscuadrones.Count;
+		for (int i = 0; i < SoldadosEscuadrones.Count; i++)
+		{
+			aux += SoldadosEscuadrones[i].cantidad;
+		}
 		if (aux < 5)
 		{
 			if (people.Coin >= preciosS.x && people.Mineral >= preciosS.y)
 			{
-				ds.insertarEscuadrones(tipodeescuadron[a].GetComponent<escuadroninfo>().info);
+				SoldadosEscuadrones[a].cantidad++;
+				refreshsoldados();
 				people.Coin = people.Coin - int.Parse( Mathf.Abs(preciosS.x)+"");
 				people.Mineral = people.Mineral - int.Parse(Mathf.Abs(preciosS.y) + "");
 				RefrescarUsuario();
@@ -461,6 +469,59 @@ public class BD : MonoBehaviour
 
 		}
 		IEnumerable<Item> aux = Items;
+
+		return aux;
+	}
+	public string Escuadrondescripcion(int a)
+	{
+		string b = "";
+		switch (a)
+		{
+			case 0:
+				b = "Soldado Razo de a pie";
+				break;
+			case 1:
+				b = "Soldado Razo de a pie que ataca a distancia";
+				break;
+		}
+		return b;
+	}
+	public string EscuadronNombre(int a)
+	{
+		string b = "";
+		switch (a)
+		{
+			case 0:
+				b = "Soldado";
+				break;
+			case 1:
+				b = "Arquero";
+				break;
+		}
+		return b;
+	}
+	public IEnumerable<escuadron> LlenarEscuadron()
+	{
+		SoldadosEscuadrones = new List<escuadron>();
+
+			  escuadron aa = new escuadron();
+		for (int i = 0; i < 2; i++)
+		{//Id, index, descripcion, nombre, rareza, Cantidad, Id_User
+
+			aa = new escuadron();
+			aa.Id_User = 1;
+			aa.cantidad = 0;
+			aa.descripcion = Escuadrondescripcion(i);
+			aa.Nombre = EscuadronNombre(i);
+			aa.precio = "350-0-250";
+			aa.Level = 1;
+			aa.index = i;
+			aa.Horainit = new DateTime().Date;
+			SoldadosEscuadrones.Add(aa);
+
+
+		}
+		IEnumerable<escuadron> aux = SoldadosEscuadrones;
 
 		return aux;
 	}

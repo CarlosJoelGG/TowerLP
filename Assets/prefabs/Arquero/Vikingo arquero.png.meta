@@ -1,0 +1,528 @@
+fileFormatVersion: 2
+guid: d36d0d331491d704781b9f12ebba6a61
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7890196728841510075
+    second: Vikingo arquero_0
+  - first:
+      213: -34339359837983934
+    second: Vikingo arquero_1
+  - first:
+      213: -568484878514634780
+    second: Vikingo arquero_2
+  - first:
+      213: 5043134495102170420
+    second: Vikingo arquero_3
+  - first:
+      213: 7336521850893360988
+    second: Vikingo arquero_4
+  - first:
+      213: 8533859363155144131
+    second: Vikingo arquero_5
+  - first:
+      213: -1014910591469019740
+    second: Vikingo arquero_6
+  - first:
+      213: 7395382996752437012
+    second: Vikingo arquero_7
+  - first:
+      213: 185641113850428318
+    second: Vikingo arquero_8
+  - first:
+      213: 7951229414960206789
+    second: Vikingo arquero_9
+  - first:
+      213: -1240757462013812414
+    second: Vikingo arquero_10
+  - first:
+      213: -6917125707675899036
+    second: Vikingo arquero_11
+  - first:
+      213: -5816827344096918446
+    second: Vikingo arquero_12
+  - first:
+      213: -2446431315665505809
+    second: Vikingo arquero_13
+  - first:
+      213: 7186237995534708227
+    second: Vikingo arquero_14
+  - first:
+      213: 2680305939273179480
+    second: Vikingo arquero_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vikingo arquero_0
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 8078
+        width: 1011
+        height: 1030
+      alignment: 9
+      pivot: {x: 0.60384965, y: 0.12317013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543e37111e3608290800000000000000
+      internalID: -7890196728841510075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo arquero_1
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 8078
+        width: 1011
+        height: 1030
+      alignment: 9
+      pivot: {x: 0.619739, y: 0.106845416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bea0fb880068ff0800000000000000
+      internalID: -34339359837983934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo arquero_2
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 6895
+        width: 965
+        height: 1104
+      alignment: 9
+      pivot: {x: 0.52945065, y: 0.1647529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef34f3d3065c18f0800000000000000
+      internalID: -568484878514634780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo arquero_3
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 6895
+        width: 967
+        height: 1104
+      alignment: 9
+      pivot: {x: 0.5337018, y: 0.17055699}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43575178a10dcf540800000000000000
+      internalID: 5043134495102170420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo arquero_4
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 5806
+        width: 1122
+        height: 1033
+      alignment: 9
+      pivot: {x: 0.6068419, y: 0.11340982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fd369b0cf80d560800000000000000
+      internalID: 7336521850893360988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo arquero_5
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 5806
+        width: 1123
+        height: 1033
+      alignment: 9
+      pivot: {x: 0.62199837, y: 0.12019329}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cde00060eb5e6670800000000000000
+      internalID: 8533859363155144131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo arquero_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 4595
+        width: 1196
+        height: 1178
+      alignment: 9
+      pivot: {x: 0.6590265, y: 0.10435623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad15bcb1305ae1f0800000000000000
+      internalID: -1014910591469019740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo arquero_7
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 4595
+        width: 1192
+        height: 1178
+      alignment: 9
+      pivot: {x: 0.6780932, y: 0.10540575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f846337ada1a660800000000000000
+      internalID: 7395382996752437012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo arquero_8
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 3519
+        width: 1053
+        height: 1034
+      alignment: 9
+      pivot: {x: 0.70225614, y: 0.12218719}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b33c60c97839200800000000000000
+      internalID: 185641113850428318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo arquero_9
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 3519
+        width: 1053
+        height: 1034
+      alignment: 9
+      pivot: {x: 0.7213472, y: 0.11659391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c317568601785e60800000000000000
+      internalID: 7951229414960206789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo arquero_10
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 2410
+        width: 1048
+        height: 1030
+      alignment: 9
+      pivot: {x: 0.6514518, y: 0.11447304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241604089a1f7cee0800000000000000
+      internalID: -1240757462013812414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo arquero_11
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 2410
+        width: 1048
+        height: 1030
+      alignment: 9
+      pivot: {x: 0.6659623, y: 0.1110937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b614f31de6100a0800000000000000
+      internalID: -6917125707675899036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo arquero_12
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1260
+        width: 1067
+        height: 983
+      alignment: 9
+      pivot: {x: 0.5636313, y: 0.050445713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2540353795a764fa0800000000000000
+      internalID: -5816827344096918446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo arquero_13
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 1260
+        width: 1066
+        height: 983
+      alignment: 9
+      pivot: {x: 0.5595639, y: 0.05813403}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1bd5e1ea78c0ed0800000000000000
+      internalID: -2446431315665505809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo arquero_14
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 216
+        width: 956
+        height: 923
+      alignment: 9
+      pivot: {x: 0.55951506, y: 0.020651821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ee243f165aab360800000000000000
+      internalID: 7186237995534708227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo arquero_15
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 216
+        width: 955
+        height: 923
+      alignment: 9
+      pivot: {x: 0.5657812, y: 0.016753588}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8516fb70d0c523520800000000000000
+      internalID: 2680305939273179480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

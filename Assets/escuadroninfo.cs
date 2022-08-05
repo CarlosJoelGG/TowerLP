@@ -10,7 +10,7 @@ public class escuadroninfo : MonoBehaviour
     public int Id_User;
     public DateTime Horainit;
     public int Level;
-    public bool Inc;
+    public int cantidad;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +19,7 @@ public class escuadroninfo : MonoBehaviour
         info.Id_User = Id_User;
        // info.Horainit = DateTime.Now;
         info.Level = Level;
-        info.Inc = false;
+        info.cantidad = 0;
 
     }
     public escuadron inf()
@@ -30,7 +30,7 @@ public class escuadroninfo : MonoBehaviour
         Id_User = a.Id_User;
         Horainit = a.Horainit;
         Level = a.Level;
-        Inc = a.Inc;
+        cantidad = a.cantidad;
     }
     // Update is called once per frame
     void Update()

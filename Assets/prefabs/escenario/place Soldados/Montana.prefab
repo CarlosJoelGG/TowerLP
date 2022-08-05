@@ -46,7 +46,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -129,7 +128,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -163,7 +161,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &5092040353248141888
@@ -257,7 +255,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -390,6 +387,7 @@ MonoBehaviour:
     una Mina cerca para poder extraerlos.
   Inc: 0
   recursos: 0
+  barraca: 0
   IAlerta: {fileID: 4985949762647173279, guid: a375761a29f9bf64ab293d0ef895c938, type: 3}
   titulo: Montana
   MoneyPrice: 0
@@ -416,6 +414,7 @@ MonoBehaviour:
   TokenID: 0
   distancia: {x: 0, y: 0, z: 0}
   renSprite: {fileID: 2612495327359107989}
+  terminarobra: {fileID: 0}
   colisionando: 0
   chocando: 0
   moving: 0
@@ -532,7 +531,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.015686275}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -562,7 +560,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
-    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -593,7 +590,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 6220566852828300377}
-        m_TargetAssemblyTypeName: BuildingSystem, Assembly-CSharp
         m_MethodName: Accion
         m_Mode: 1
         m_Arguments:
@@ -740,6 +736,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6489672627241235123, guid: e7b845dbdd7803944a9a0a3b994303e0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8006873470162449525, guid: e7b845dbdd7803944a9a0a3b994303e0,
         type: 3}

@@ -27,13 +27,11 @@ public class accionPie : MonoBehaviour
         if (gameObject.transform.parent.gameObject.GetComponent<anadirdescricion>().datos.meta <= gameObject.transform.parent.gameObject.GetComponent<anadirdescricion>().datos.progreso)
         {
             pieTexto.text = "Mision Completada";
-            botonA.SetActive(false);
-            botonComplete.SetActive(true);
 
         }
         else
         {
-            pieTexto.text = textopie + " " + gameObject.transform.parent.gameObject.GetComponent<anadirdescricion>().datos.progreso + "/" + gameObject.transform.parent.gameObject.GetComponent<anadirdescricion>().datos.meta;
+            pieTexto.text = "Progreso de la mision: " + gameObject.transform.parent.gameObject.GetComponent<anadirdescricion>().datos.progreso + "/" + gameObject.transform.parent.gameObject.GetComponent<anadirdescricion>().datos.meta;
         }
     }
 }

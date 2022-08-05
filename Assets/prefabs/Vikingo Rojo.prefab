@@ -160,24 +160,24 @@ MonoBehaviour:
   lastTarget: {fileID: 0}
   lastTargetPoint: {x: 0, y: 0, z: 0}
   anim: {fileID: 7592231420097678884}
-  visionRange: 4
+  visionRange: 10
   attackRange: 1.9
-  endRange: 0.2
+  endRange: 0.3
   delayOrderMax: 10
   delayOrder: 0
   aiState: 0
   lastPos: {x: 0, y: 0, z: 0}
   tAttack: 0
+  projectil: {fileID: 0}
   seleted: {fileID: 5164979795548788089}
   enemygosCerca: 0
   spawner: {fileID: 0}
   intSpawner: 0
-  NPC: 1
-  vidaMax: 40
-  vida: 40
+  vidaMax: 50
+  vida: 50
   str: 15
-  escudo: 5
-  armadura: 5
+  escudo: 8
+  armadura: 4
   attackTime: 1.5
   layerUnits:
     serializedVersion: 2
@@ -216,7 +216,6 @@ MonoBehaviour:
   descripcion: 
   Inc: 0
   recursos: 0
-  barraca: 0
   IAlerta: {fileID: 0}
   titulo: 
   MoneyPrice: 0
