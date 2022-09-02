@@ -23,7 +23,7 @@ public class soldadosShop : MonoBehaviour
         destruir();
         articulos = new List<GameObject>();
            GameObject aux = GameObject.Find("BD");
-         if (aux.GetComponent<BD>().verificarbarracas())
+       //  if (aux.GetComponent<BD>().verificarbarracas())
          {
         Debug.Log(aux.GetComponent<BD>().SoldadosEscuadrones.Count);
             for (int i = 0; i < aux.GetComponent<BD>().SoldadosEscuadrones.Count; i++)

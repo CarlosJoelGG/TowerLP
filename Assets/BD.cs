@@ -15,9 +15,10 @@ public class BD : MonoBehaviour
 	public List<int> limiteCasas,limiteMoneda,numerodeCasas;
 	public IEnumerable<escuadron> soldados;
 	public List<escuadron> SoldadosEscuadrones;
-	public List<GameObject> objetos;
+	public List<GameObject> Objetos;
 	public List<GameObject> tipodeescuadron;
 	public List<objetos> predefinidos;
+	public List<string> textoMision,ImagenesMision;
 	public GridBuildingSystem Construir;
 	public IEnumerable<objetos> obj;
 	public IEnumerable<Item> Slot;
@@ -28,6 +29,7 @@ public class BD : MonoBehaviour
 	public ubicarmundo mundo;
 	public bool tutorial=false;
 	public bool PVES = false;
+	public List<int> margen;
 	public spawnerunits unidadeee;
 	public int version = 0; 
 	// Start is called before the first frame update
@@ -94,10 +96,27 @@ public class BD : MonoBehaviour
 				ds.CreateTablaUsuario(version);
 				people = ds.GetUsuario(1);
 				Misiones ag = new Misiones();
+			string aux, aux2;
 				for (int i = 0; i < misionestexto.Count; i++)
 				{
-					ag = new Misiones();
-					misioneslista.Add(ag.llenar(misionestexto[i]));
+				if (i < textoMision.Count)
+				{
+					aux = textoMision[i];
+				}
+				else
+				{
+					aux = "**";
+				}
+				if (i < ImagenesMision.Count)
+				{
+					aux2 = ImagenesMision[i];
+				}
+				else
+				{
+					aux2 = "**";
+				}
+				ag = new Misiones();
+					misioneslista.Add(ag.llenar(misionestexto[i],aux,aux2));
 					//misioneslista[i].llenar(misionestexto[i]);
 				}
 
@@ -113,15 +132,6 @@ public class BD : MonoBehaviour
 				}
 
 			}
-
-			if (tutorial)
-			{
-				if (!people.prim)
-				{
-					SceneManager.LoadScene("Mundo");
-				}
-			}
-			else
 			{
 
 				if (ds.ExisteTabla("objetos", 1))
@@ -236,30 +246,40 @@ public class BD : MonoBehaviour
 			switch (a)
 			{
 				case 0:
-				if((people.Coin+aumento)< limiteMoneda[a])
-				people.Coin += aumento;
+				
+				if ((people.Coin + aumento) < limiteMoneda[a])
+				{ people.Coin += aumento;
+					margen[0] += aumento;
+				}
 				else
 				{
 					residuo = (people.Coin + aumento) - limiteMoneda[a];
 					people.Coin = limiteMoneda[a];
+					margen[0] += (people.Coin + aumento)-((people.Coin + aumento)-(limiteMoneda[a]));
 				}
 				break;
 				case 1:
 				if ((people.Mineral + aumento) < limiteMoneda[a])
-					people.Mineral += aumento;
+				{ people.Mineral += aumento;
+					margen[1] += aumento;
+				}
 				else
 				{
 					residuo = (people.Mineral + aumento) - limiteMoneda[a];
 					people.Mineral = limiteMoneda[a];
+					margen[1] += (people.Coin + aumento) - ((people.Coin + aumento) - (limiteMoneda[a]));
 				}
 				break;
 				case 2:
 				if ((people.Madera + aumento) < limiteMoneda[a])
-					people.Madera += aumento;
+				{ people.Madera += aumento;
+					margen[2] += aumento;
+				}
 				else
 				{
 					residuo = (people.Madera + aumento) - limiteMoneda[a];
 					people.Madera = limiteMoneda[a];
+					margen[2] += (people.Coin + aumento) - ((people.Coin + aumento) - (limiteMoneda[a]));
 				}
 					break;
 
@@ -406,16 +426,16 @@ public class BD : MonoBehaviour
 	public IEnumerable<objetos> predeterminado()
 	{
 		objetos aa=new objetos();
-		for (int i = 0; i < objetos.Count; i++)
+		for (int i = 0; i < Objetos.Count; i++)
 		{
 			aa = new objetos();
-			aa.x = objetos[i].transform.position.x;
-			aa.y = objetos[i].transform.position.y;
-			aa.z = objetos[i].transform.position.z;
+			aa.x = Objetos[i].transform.position.x;
+			aa.y = Objetos[i].transform.position.y;
+			aa.z = Objetos[i].transform.position.z;
 
 			aa.Id_User = 1;
-			aa.Id_Obj = objetos[i].GetComponent<StateInf>().id;
-			aa.Level = objetos[i].GetComponent<StateInf>().intLevel;
+			aa.Id_Obj = Objetos[i].GetComponent<StateInf>().id;
+			aa.Level = Objetos[i].GetComponent<StateInf>().intLevel;
 			aa.Horainit = DateTime.UtcNow.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss");
 			aa.Inc = false;
 			predefinidos.Add(aa);
@@ -488,7 +508,7 @@ public class BD : MonoBehaviour
 	}
 	public string Escuadrondescripcion(int a)
 	{
-		string b = "";
+		string b = "Sin Descripcion";
 		switch (a)
 		{
 			case 0:
@@ -497,12 +517,16 @@ public class BD : MonoBehaviour
 			case 1:
 				b = "Soldado Razo de a pie que ataca a distancia";
 				break;
+			case 2:
+				b = "Unidad a Caballo mas rapida que un soldado a pie";
+				break;
+
 		}
 		return b;
 	}
 	public string EscuadronNombre(int a)
 	{
-		string b = "";
+		string b = "-Sin Nombre-";
 		switch (a)
 		{
 			case 0:
@@ -510,6 +534,26 @@ public class BD : MonoBehaviour
 				break;
 			case 1:
 				b = "Arquero";
+				break;
+			case 2:
+				b = "Caballero";
+				break;
+		}
+		return b;
+	}
+	public string EscuadronPrecio(int a)
+	{
+		string b = "0-0-0";
+		switch (a)
+		{
+			case 0:
+				b="350-0-250";
+				break;
+			case 1:
+				b = "150-0-350";
+				break;
+			case 2:
+				b = "300-0-300";
 				break;
 		}
 		return b;
@@ -519,7 +563,7 @@ public class BD : MonoBehaviour
 		SoldadosEscuadrones = new List<escuadron>();
 
 			  escuadron aa = new escuadron();
-		for (int i = 0; i < 2; i++)
+		for (int i = 0; i < 3; i++)
 		{//Id, index, descripcion, nombre, rareza, Cantidad, Id_User
 
 			aa = new escuadron();
@@ -527,7 +571,7 @@ public class BD : MonoBehaviour
 			aa.cantidad = 0;
 			aa.descripcion = Escuadrondescripcion(i);
 			aa.Nombre = EscuadronNombre(i);
-			aa.precio = "350-0-250";
+			aa.precio = EscuadronPrecio(i);
 			aa.Level = 1;
 			aa.index = i;
 			aa.Horainit = new DateTime().Date;
