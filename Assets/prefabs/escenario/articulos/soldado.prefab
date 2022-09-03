@@ -1066,9 +1066,7 @@ MonoBehaviour:
   imagenes:
   - {fileID: 1475384112853665357, guid: 8912c17ad0d6ff44fa8288f3eca4cd25, type: 3}
   - {fileID: -7890196728841510075, guid: d36d0d331491d704781b9f12ebba6a61, type: 3}
-  - {fileID: -5094250770522696864, guid: 1383c2bf2148c574d9a51f2278f5d270, type: 3}
   descripcionS: Soldado Razo de a pie
-  Name: 
   Edificio: {fileID: 7748853896647295803}
   Id_User: 0
   precioGold: 0
@@ -1146,7 +1144,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8b60ff18d68f8374ba68cf34373a5371, type: 3}
-    m_FontSize: 30
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3

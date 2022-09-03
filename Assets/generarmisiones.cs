@@ -28,11 +28,11 @@ public class generarmisiones : MonoBehaviour
     {
         destruirmisiones();
         listaM = data.getmisiones();
-        for (int i = 0; i < listaM.Count; i++)
+        for (int i = 0; i < MisionesListaObjeto.Count; i++)
         {
             if (!listaM[i].completada)
             {
-                ML.Add(Instantiate(MisionesListaObjeto[0]));
+                ML.Add(Instantiate(MisionesListaObjeto[listaM[i].tipo]));
                 ML[i].GetComponent<anadirdescricion>().In(listaM[i]);
                 ML[i].transform.parent = this.transform;
                 ML[i].transform.localEulerAngles = new Vector3(0, 0, 0);

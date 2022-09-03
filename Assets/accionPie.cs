@@ -31,7 +31,7 @@ public class accionPie : MonoBehaviour
         }
         else
         {
-            pieTexto.text = textopie+" Progreso: " + gameObject.transform.parent.gameObject.GetComponent<anadirdescricion>().datos.progreso + "/" + gameObject.transform.parent.gameObject.GetComponent<anadirdescricion>().datos.meta;
+            pieTexto.text = "Progreso de la mision: " + gameObject.transform.parent.gameObject.GetComponent<anadirdescricion>().datos.progreso + "/" + gameObject.transform.parent.gameObject.GetComponent<anadirdescricion>().datos.meta;
         }
     }
 }
