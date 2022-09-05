@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 26c23b7eee010274080e341ba7240479
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5321475438043147595
+    second: Vikingo jinete atras_0
+  - first:
+      213: -1646306630958092264
+    second: Vikingo jinete atras_1
+  - first:
+      213: -3539613174708131074
+    second: Vikingo jinete atras_2
+  - first:
+      213: 2405341114973139477
+    second: Vikingo jinete atras_3
+  - first:
+      213: 8830340305350208650
+    second: Vikingo jinete atras_4
+  - first:
+      213: -8436251540792268341
+    second: Vikingo jinete atras_5
+  - first:
+      213: 5619457109918633005
+    second: Vikingo jinete atras_6
+  - first:
+      213: -1057853515974504977
+    second: Vikingo jinete atras_7
+  - first:
+      213: 561544214677211183
+    second: Vikingo jinete atras_8
+  - first:
+      213: -7232161790374039030
+    second: Vikingo jinete atras_9
+  - first:
+      213: 2581482239436119459
+    second: Vikingo jinete atras_10
+  - first:
+      213: 1790797432166117216
+    second: Vikingo jinete atras_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vikingo jinete atras_0
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 9386
+        width: 1729
+        height: 1566
+      alignment: 9
+      pivot: {x: 0.38963613, y: 0.1542052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2d87298425626b0800000000000000
+      internalID: -5321475438043147595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete atras_1
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 9307
+        width: 1729
+        height: 1561
+      alignment: 9
+      pivot: {x: 0.40189245, y: 0.15728348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8107f5677d42729e0800000000000000
+      internalID: -1646306630958092264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete atras_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 7567
+        width: 1381
+        height: 1785
+      alignment: 9
+      pivot: {x: 0.49053946, y: 0.13891478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efaaa3f3294c0eec0800000000000000
+      internalID: -3539613174708131074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete atras_3
+      rect:
+        serializedVersion: 2
+        x: 2276
+        y: 7483
+        width: 1381
+        height: 1785
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.12877166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512bd91000d716120800000000000000
+      internalID: 2405341114973139477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete atras_4
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 5702
+        width: 1886
+        height: 1745
+      alignment: 9
+      pivot: {x: 0.3579728, y: 0.12695144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ca63af8bbab8a70800000000000000
+      internalID: 8830340305350208650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete atras_5
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 5618
+        width: 1887
+        height: 1746
+      alignment: 9
+      pivot: {x: 0.3628821, y: 0.13425218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc92c3bbbe96cea80800000000000000
+      internalID: -8436251540792268341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete atras_6
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 3962
+        width: 1881
+        height: 1566
+      alignment: 9
+      pivot: {x: 0.36073133, y: 0.14782637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c4e33e7725cfd40800000000000000
+      internalID: 5619457109918633005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete atras_7
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 3883
+        width: 1881
+        height: 1561
+      alignment: 9
+      pivot: {x: 0.35992375, y: 0.13974383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed01fbf4dfb151f0800000000000000
+      internalID: -1057853515974504977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete atras_8
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 2260
+        width: 1757
+        height: 1544
+      alignment: 9
+      pivot: {x: 0.42577106, y: 0.16039976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28c281fc710bc700800000000000000
+      internalID: 561544214677211183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete atras_9
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 2176
+        width: 1757
+        height: 1550
+      alignment: 9
+      pivot: {x: 0.42263633, y: 0.16593702}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a023a965b2332ab90800000000000000
+      internalID: -7232161790374039030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete atras_10
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 610
+        width: 1790
+        height: 1459
+      alignment: 9
+      pivot: {x: 0.3967203, y: 0.06550863}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3add1936b6443d320800000000000000
+      internalID: 2581482239436119459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete atras_11
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 531
+        width: 1790
+        height: 1459
+      alignment: 9
+      pivot: {x: 0.40376043, y: 0.06335206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f61f8c6c03ad810800000000000000
+      internalID: 1790797432166117216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -80,6 +80,7 @@ public class GridBuildingSystem : MonoBehaviour
             CasaPropiedades(-1);
             buildFly = Instantiate(building);
             buildFly.BSinicio();
+            
             foot(true);
             firstPoint = true;
            
@@ -127,6 +128,7 @@ public class GridBuildingSystem : MonoBehaviour
             {
                 buildFly.nextLevel();
                 buildFly.gameObject.GetComponent<StateInf>().marca = GameObject.Find("BD").GetComponent<BD>().Comprar(buildFly.gameObject.GetComponent<StateInf>());
+                GameObject.Find("mundo").GetComponent<ubicarmundo>().MundoAdd(buildFly.gameObject);
             }
             else
             {

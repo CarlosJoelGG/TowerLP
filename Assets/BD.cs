@@ -20,7 +20,7 @@ public class BD : MonoBehaviour
 	public List<objetos> predefinidos;
 	public List<string> textoMision,ImagenesMision;
 	public GridBuildingSystem Construir;
-	public IEnumerable<objetos> obj;
+	
 	public IEnumerable<Item> Slot;
 	public List<BuildingSystem> planos;
 	public List<string> misionestexto;
@@ -68,8 +68,8 @@ public class BD : MonoBehaviour
 
 	public void iniciarT()
 	{
-
-			predefinidos = new List<objetos>();
+		IEnumerable<objetos> obj;
+		predefinidos = new List<objetos>();
 			misioneslista = new List<Misiones>();
 			Items = new List<Item>();
 
@@ -169,6 +169,20 @@ public class BD : MonoBehaviour
 				refrescarmonedas();
 			}
 		
+	}
+	public void llenarM()
+	{
+		IEnumerable<objetos> obj;
+		obj = ds.GetObjetos(people.Id);
+
+		mundo.llenarmundo(obj);
+		predefinidos = new List<objetos>();
+		numerodeCasas = new List<int>();
+		foreach (objetos OdM in obj)
+		{
+			predefinidos.Add(OdM);
+			numerodeCasas[OdM.Id_Obj]++;
+		}
 	}
 	public bool verificarCoins(int tipoA)
 	{
@@ -353,6 +367,12 @@ public class BD : MonoBehaviour
 			people.Exp = 0;
 			people.Lv++;
 		}
+		RefrescarUsuario();
+	}
+	public void restarsoldado(int a)
+	{
+		SoldadosEscuadrones[a].cantidad--;
+		refreshsoldados();
 		RefrescarUsuario();
 	}
 	public void VerificarSoldier(int a, Vector2 preciosS)

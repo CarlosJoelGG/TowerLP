@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 510358a3d2ca4b645874a051efd096e8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9033007544750612301
+    second: Vikingo jinete_0
+  - first:
+      213: 7286341208045704169
+    second: Vikingo jinete_1
+  - first:
+      213: 5669753970169732095
+    second: Vikingo jinete_2
+  - first:
+      213: 4213041751606912788
+    second: Vikingo jinete_3
+  - first:
+      213: -2508071300638161068
+    second: Vikingo jinete_4
+  - first:
+      213: 8162884022853873551
+    second: Vikingo jinete_5
+  - first:
+      213: -8873653723647403495
+    second: Vikingo jinete_6
+  - first:
+      213: 3018207563222637455
+    second: Vikingo jinete_7
+  - first:
+      213: -1057480979133782437
+    second: Vikingo jinete_8
+  - first:
+      213: 6105558687144337189
+    second: Vikingo jinete_9
+  - first:
+      213: -2293480562217665327
+    second: Vikingo jinete_10
+  - first:
+      213: 6970282195342733503
+    second: Vikingo jinete_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vikingo jinete_0
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 9431
+        width: 1308
+        height: 1718
+      alignment: 9
+      pivot: {x: 0.4823187, y: 0.15336294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b067b93f7f44a280800000000000000
+      internalID: -9033007544750612301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete_1
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 9343
+        width: 1308
+        height: 1712
+      alignment: 9
+      pivot: {x: 0.48467046, y: 0.15332146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3dad959b84e1560800000000000000
+      internalID: 7286341208045704169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 7617
+        width: 1453
+        height: 1780
+      alignment: 9
+      pivot: {x: 0.42710516, y: 0.15244608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbd3db32330fae40800000000000000
+      internalID: 5669753970169732095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete_3
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 7533
+        width: 1452
+        height: 1774
+      alignment: 9
+      pivot: {x: 0.42454055, y: 0.14863816}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4176b64c62bb77a30800000000000000
+      internalID: 4213041751606912788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete_4
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 5826
+        width: 1519
+        height: 1718
+      alignment: 9
+      pivot: {x: 0.5549138, y: 0.1445233}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4574c1eb07a813dd0800000000000000
+      internalID: -2508071300638161068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete_5
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 5742
+        width: 1516
+        height: 1712
+      alignment: 9
+      pivot: {x: 0.5611613, y: 0.1467884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8faaec15c3684170800000000000000
+      internalID: 8162884022853873551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete_6
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 4029
+        width: 1516
+        height: 1713
+      alignment: 9
+      pivot: {x: 0.553761, y: 0.14791986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a9c26f3f27ad480800000000000000
+      internalID: -8873653723647403495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete_7
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 3939
+        width: 1515
+        height: 1718
+      alignment: 9
+      pivot: {x: 0.5594957, y: 0.14585711}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b5840a9c3d2e920800000000000000
+      internalID: 3018207563222637455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete_8
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 2260
+        width: 1415
+        height: 1712
+      alignment: 9
+      pivot: {x: 0.49333048, y: 0.11964017}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56aff9f6a21351f0800000000000000
+      internalID: -1057480979133782437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete_9
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 2176
+        width: 1415
+        height: 1707
+      alignment: 9
+      pivot: {x: 0.491942, y: 0.121475905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fd98ef64d4bb450800000000000000
+      internalID: 6105558687144337189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete_10
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 525
+        width: 1363
+        height: 1679
+      alignment: 9
+      pivot: {x: 0.5, y: 0.10810813}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcb0cd749beb20e0800000000000000
+      internalID: -2293480562217665327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vikingo jinete_11
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 441
+        width: 1359
+        height: 1678
+      alignment: 9
+      pivot: {x: 0.49722534, y: 0.10901403}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb032adf9ba6bb060800000000000000
+      internalID: 6970282195342733503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

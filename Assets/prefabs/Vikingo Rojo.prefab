@@ -46,7 +46,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -193,9 +192,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 1.3
-  m_Height: 3
+  m_Height: 4
   m_Direction: 1
-  m_Center: {x: 0, y: 1.5, z: 0}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &8950332212657666174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,8 +215,10 @@ MonoBehaviour:
   descripcion: 
   Inc: 0
   recursos: 0
+  barraca: 0
   IAlerta: {fileID: 0}
   titulo: 
+  inicio: 
   MoneyPrice: 0
   WoodPrice: 0
   FoodPrice: 0
@@ -288,7 +289,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -313,9 +313,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5808416309676928842, guid: f237d7368be9f2c4aa38b844ff5acc2d,
+  m_Sprite: {fileID: 3698202787427275862, guid: f237d7368be9f2c4aa38b844ff5acc2d,
     type: 3}
-  m_Color: {r: 1, g: 0.6839622, b: 0.6839622, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -348,7 +348,7 @@ Animator:
   m_GameObject: {fileID: 8606050844272262886}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 434cc430c7c233f47b2ee0d4a26fa3d7, type: 2}
+  m_Controller: {fileID: 9100000, guid: bf28dc57644f35945bd130d5fcfbab24, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

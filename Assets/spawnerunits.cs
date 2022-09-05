@@ -10,22 +10,31 @@ public class spawnerunits : MonoBehaviour
     public BD bds;
     public int vidasenemigas=6,vidaUsuario=1;
     public List<GameObject> posicionesSpawn;
+    public List<int> posiciones;
     // Start is called before the first frame update
     void Start()
     {
+       
+    }
+    public void iniciar()
+    {
         armada = new List<GameObject>();
         int a = 0;
-        for (int i = 0; i < bds.SoldadosEscuadrones.Count; i++)
+        for (int i = 0; i < 5; i++)
         {
-            for (int j = 0; j < bds.SoldadosEscuadrones[i].cantidad; j++)
+            //   for (int j = 0; j < bds.SoldadosEscuadrones[i].cantidad; j++)
+            //  {
+            if (posiciones[i] != -1)
             {
                 a++;
-                armada.Add(Instantiate(spwans[i]));
+                armada.Add(Instantiate(spwans[posiciones[i]]));
                 armada[armada.Count - 1].transform.position = posicionesSpawn[armada.Count - 1].transform.position;
                 armada[armada.Count - 1].transform.localScale = new Vector3(1, 1, 1);
+                bds.restarsoldado(posiciones[i]);
             }
-            
-        }
+            }
+
+       // }
         vidaUsuario = a;
     }
     public void backmundo()

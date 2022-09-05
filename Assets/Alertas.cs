@@ -7,7 +7,8 @@ public class Alertas : MonoBehaviour
 {
     public Image casa;
     public BuildingSystem dataActual;
-    public GameObject Aler,alertinfo,misiones;
+    public GameObject Aler,alertinfo,misiones,gestor,gestorsoldados,tienda,tiendacontenido,soldadosShop;
+    public GameObject Perfil, mainbotones;
     public void Aceptar()
     {
         dataActual.mejorar();
@@ -48,7 +49,15 @@ public class Alertas : MonoBehaviour
                 misiones.SetActive(true);
                 break;
             case 5://inventario
-
+                gestor.SetActive(false);
+                Perfil.SetActive(true);
+                mainbotones.SetActive(true);
+                break;
+            case 6:
+                gestorsoldados.SetActive(false);
+                tienda.SetActive(true);
+                tiendacontenido.GetComponent<rectscrollcontrol>().contenidos(1);
+                soldadosShop.GetComponent<soldadosShop>().Iniciar();
                 break;
         }
     }

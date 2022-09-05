@@ -14,8 +14,16 @@ public class cinemaControl : MonoBehaviour
     public float zSizeMin, zSizeMax;
     public float zSize;
     public CamaraMove camMove;
+    public bool PVE = false;
     // Start is called before the first frame update
     void Start()
+    {
+        if (!PVE)
+        {
+            iniciar();
+        }
+    }
+    public void iniciar()
     {
         camMove = GetComponent<CamaraMove>();
 
@@ -28,7 +36,7 @@ public class cinemaControl : MonoBehaviour
         //cine.m_Lens.OrthographicSize = 7;
         float cSize = Mathf.Round((zSizeMax - zSizeMin) / 3);
 
-        cam.orthographicSize = cSize+ zSizeMin;
+        cam.orthographicSize = cSize + zSizeMin;
 
 
         zSize = cam.orthographicSize;

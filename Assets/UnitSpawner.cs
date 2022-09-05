@@ -83,6 +83,7 @@ public class UnitSpawner : MonoBehaviour
 
             if (units.Count == 1)
             {
+                if(units[0]!=null)
                 transform.position = units[0].transform.position;
             }
 

@@ -471,7 +471,7 @@ public class UnitsAi : MonoBehaviour
                // }
             }
 
-            Debug.Log("Des");
+            //Debug.Log("Des");
         }
     }
 

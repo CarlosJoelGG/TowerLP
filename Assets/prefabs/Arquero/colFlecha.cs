@@ -15,7 +15,7 @@ public class colFlecha : MonoBehaviour
             {
                 Flecha.TakeDamage(other.GetComponent<UnitsAi>());
 
-                Debug.Log("Col");
+               // Debug.Log("Col");
             }
         }
     }

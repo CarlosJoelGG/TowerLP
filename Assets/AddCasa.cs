@@ -16,6 +16,7 @@ public class AddCasa : MonoBehaviour
     {
         destruir();
         Data = GameObject.Find("mundo");
+        casas = new List<GameObject>();
         List<GameObject> aux = new List<GameObject>();
         aux = Data.GetComponent<ubicarmundo>().objetosdelmundo;
         tokens = new List<GameObject>();

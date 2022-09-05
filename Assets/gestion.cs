@@ -13,12 +13,13 @@ public class gestion : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //GameObject.Find("BD").GetComponent<BD>().llenarM();
         Nombre.text = Data.GetComponent<StateInf>().titulo;
         nivel.text = ""+Data.GetComponent<StateInf>().intLevel;
 
-        if (Data.GetComponent<StateInf>().id == 6 || Data.GetComponent<StateInf>().id == 7 || Data.GetComponent<StateInf>().id == 8)
+        if (Data.GetComponent<StateInf>().Inc)
         {
-            produccion.text = "" + Data.GetComponent<carpinteriaScript>().recurso;
+            produccion.text = "" + Data.GetComponent<BuildingSystem>().timing();
         }
         else
         {
@@ -31,10 +32,22 @@ public class gestion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Data.GetComponent<StateInf>().id == 6 || Data.GetComponent<StateInf>().id == 7 || Data.GetComponent<StateInf>().id == 8)
+        if (Data.GetComponent<StateInf>().Inc)
         {
-            produccion.text = "" + Data.GetComponent<carpinteriaScript>().recurso;
+            produccion.text = "" + Data.GetComponent<BuildingSystem>().timing();
+        }
+        else
+        {
+            if (produccion.text.Equals("---"))
+            { }
+            else
+            produccion.text = "---";
         }
 
+    }
+    public void ir()
+    {
+        GameObject.Find("CanvasMain").GetComponent<Ui>().GestorIr();
+        Data.GetComponent<BuildingSystem>().Accion();
     }
 }

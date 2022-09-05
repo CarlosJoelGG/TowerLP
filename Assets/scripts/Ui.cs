@@ -32,7 +32,14 @@ public class Ui : MonoBehaviour
       //  Alerta.SetActive(true);
                 Alerta.GetComponent<Alertas>().mostrar(a,b);
     }
-
+    public void GestorIr()
+    {
+        Alerta.GetComponent<Alertas>().mostrar(5, null);
+    }
+    public void GestorTropasIr()
+    {
+        Alerta.GetComponent<Alertas>().mostrar(6, null);
+    }
     // Update is called once per frame
     void Update()
     {

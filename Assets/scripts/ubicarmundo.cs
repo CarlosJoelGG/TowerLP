@@ -17,8 +17,20 @@ public class ubicarmundo : MonoBehaviour
 	
 		
 	}
+	public void destruir()
+	{
+		for (int i = 0; i < objetosdelmundo.Count; i++)
+		{
+			Destroy(objetosdelmundo[i]);
+		}
+	}
+	public void MundoAdd(GameObject a)
+	{
+		objetosdelmundo.Add(a);
+	}
 	public void llenarmundo(IEnumerable<objetos> objdelmundo)
 	{
+		destruir();
 		objetosdelmundo = new List<GameObject>();
 		foreach (objetos OdM in objdelmundo)
 		{

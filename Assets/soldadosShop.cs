@@ -25,7 +25,7 @@ public class soldadosShop : MonoBehaviour
            GameObject aux = GameObject.Find("BD");
        //  if (aux.GetComponent<BD>().verificarbarracas())
          {
-        Debug.Log(aux.GetComponent<BD>().SoldadosEscuadrones.Count);
+        //Debug.Log(aux.GetComponent<BD>().SoldadosEscuadrones.Count);
             for (int i = 0; i < aux.GetComponent<BD>().SoldadosEscuadrones.Count; i++)
             {
                 articulos.Add(Instantiate(soldados[0]));

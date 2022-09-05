@@ -9,10 +9,10 @@ public class musica : MonoBehaviour
     public List<AudioMixer> controlVolumen;
     public bool SFX = true, MV=true;
     public float Rsfx=0, Rmv = 0;
-    // Start is called before the first frame update
+    public int index = 0;
     void Start()
     {
-        playMusic(0);
+        playMusic(index);
     }
     public void volumenMusica(float a)
     {
@@ -71,7 +71,6 @@ public class musica : MonoBehaviour
         }
         efectos[a].Play();
     }
-    // Update is called once per frame
     void Update()
     {
         
