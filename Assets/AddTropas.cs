@@ -18,6 +18,7 @@ public class AddTropas : MonoBehaviour
         destruir();
         Data = GameObject.Find("BD");
         tropas = new List<escuadron>();
+
         List<escuadron> aux = new List<escuadron>();
         aux = Data.GetComponent<BD>().SoldadosEscuadrones;
         tokens = new List<GameObject>();

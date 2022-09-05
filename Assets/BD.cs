@@ -504,6 +504,17 @@ public class BD : MonoBehaviour
 		}
 		return b;
 	}
+	public void ActualizarEscuadron()
+	{
+		IEnumerable<escuadron>  Soldados;
+		Soldados = ds.GetEscuadrones(people.Id);
+		SoldadosEscuadrones = new List<escuadron>();
+				foreach (escuadron OdM in Soldados)
+				{
+					SoldadosEscuadrones.Add(OdM);
+
+				}
+	}
 	public IEnumerable<Item> LlenarItems()
 	{
 		Item aa = new Item();

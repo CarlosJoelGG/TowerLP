@@ -18,10 +18,7 @@ public class GestionTropas : MonoBehaviour
        
         Nombre.text = Data.Nombre;
         nivel.text = "" + Data.Level;
-
-
         produccion.text = "" + Data.cantidad;
-
         foto.sprite = casasimagenes[index];
 
     }
@@ -29,7 +26,8 @@ public class GestionTropas : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        produccion.text = "" + Data.cantidad;
+        
+        produccion.text = "" + GameObject.Find("BD").GetComponent<BD>().SoldadosEscuadrones[index].cantidad;
 
     }
     public void ir()

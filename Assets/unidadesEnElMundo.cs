@@ -27,12 +27,15 @@ public class unidadesEnElMundo : MonoBehaviour
             count[a]--;
         }
     }
-    public void quitar(int a)
+    public void quitar()
     {
         index--;
-        if(index>=0)
-        targets[index].vaciar();
-        count[a]++;
+        if (index >= 0)
+        {
+            count[targets[index].index]++;
+            targets[index].vaciar();
+            
+        }
 
     }
     public void iniciar()

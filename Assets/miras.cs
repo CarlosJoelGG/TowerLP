@@ -28,7 +28,7 @@ public class miras : MonoBehaviour
         }
         else
         {
-            GameObject.Find("mundo").GetComponent<unidadesEnElMundo>().quitar(index);
+            GameObject.Find("mundo").GetComponent<unidadesEnElMundo>().quitar();
         }
     }
     public void Llenar(int a)
