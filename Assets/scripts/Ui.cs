@@ -15,6 +15,14 @@ public class Ui : MonoBehaviour
     public CamaraMove camMove;
     public GameObject Alerta;
 
+    public float xFood, xWood, xMoney;
+
+    [Header("RecuseSlider")]
+    public valueslider moneySC, woodSC, foodSC;
+
+    [Header("RecuseAnimator")]
+    public Text moneyTextA, woodTextA, foodTextA;
+
     // Start is called before the first frame update
     // Start is called before the first frame update
     void Start()
@@ -24,6 +32,11 @@ public class Ui : MonoBehaviour
         buildingProcess.SetActive(false);
         buildBottons.SetActive(false);
 
+/*
+        xMoney = moneySC.puntos;
+        xFood = foodSC.puntos;
+        xWood = woodSC.puntos;
+*/
     }
 
 
@@ -43,6 +56,7 @@ public class Ui : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         //UI principal
         moneyText.text = player.money+ "";
         woodText.text = player.wood + "";
@@ -60,12 +74,41 @@ public class Ui : MonoBehaviour
         moneyText2.text = player.money + "";
         woodText2.text = player.wood + "";
         foodText2.text = player.food + "";
+        */
 
+        
+    }
+
+    void LateUpdate()
+    {/*
+        if (xMoney != moneySC.puntos)
+        {
+
+            MoneyChange((moneySC.puntos - xMoney));
+            xMoney = moneySC.puntos;
+            Debug.Log("money");
+        }
+
+        if (xFood != foodSC.puntos)
+        {
+
+            FoodChange((foodSC.puntos - xFood));
+            xFood = foodSC.puntos;
+            Debug.Log("food");
+        }
+
+        if (xWood != woodSC.puntos)
+        {
+
+            WoodChange((woodSC.puntos - xWood));
+            xWood = woodSC.puntos;
+            Debug.Log("wood");
+        }*/
     }
 
 
 
-    public void MainUi()
+        public void MainUi()
     {
         camMove.move = true;
         zoomBoton.SetActive(true);
@@ -92,5 +135,67 @@ public class Ui : MonoBehaviour
         buildingProcess.SetActive(true);
         buildBottons.SetActive(false);
         zoomBoton.SetActive(true);
+    }
+
+   
+
+    private void MoneyChange(float valor)//1
+    {
+
+        Debug.Log("money1");
+
+        if (valor > 0)
+        {
+            moneyTextA.GetComponent<Text>().text = "+" + valor;
+            moneyTextA.GetComponent<Animator>().SetTrigger("mas");
+            Debug.Log("money +" + valor);
+        }
+        else
+        {
+            moneyTextA.GetComponent<Text>().text = ""+ valor;
+            moneyTextA.GetComponent<Animator>().SetTrigger("menos");
+            Debug.Log("money " + valor);
+        }
+
+       
+    }
+
+    private void FoodChange(float valor)//2
+    {
+
+        Debug.Log("food1");
+        if (valor > 0)
+        {
+            foodTextA.GetComponent<Text>().text = "+" + valor;
+            foodTextA.GetComponent<Animator>().SetTrigger("mas");
+            Debug.Log("food +" + valor);
+        }
+        else
+        {
+            foodTextA.GetComponent<Text>().text = "" + valor;
+            foodTextA.GetComponent<Animator>().SetTrigger("menos");
+            Debug.Log("food " + valor);
+
+        }
+       
+    }
+
+    private void WoodChange(float valor)//3
+    {
+        Debug.Log("wood1");
+        if (valor > 0)
+        {
+            woodTextA.GetComponent<Text>().text = "+" + valor;
+            woodTextA.GetComponent<Animator>().SetTrigger("mas");
+            Debug.Log("wood +" + valor);
+        }
+        else
+        {
+            woodTextA.GetComponent<Text>().text = "" + valor;
+            woodTextA.GetComponent<Animator>().SetTrigger("menos");
+            Debug.Log("wood " + valor);
+
+        }
+        
     }
 }

@@ -421,6 +421,7 @@ public class BD : MonoBehaviour
 	}
 	public bool verificarbarracas()
 	{
+		
 		if (numerodeCasas[4] > 0)
 			return true;
 		return false;
@@ -528,7 +529,8 @@ public class BD : MonoBehaviour
 				aa.descripcion = ItemDescr(i);
 				aa.nombre = ItemNombre(i);
 				aa.rareza = j;
-				aa.Cantidad = 1;
+				aa.Cantidad = 5;
+				aa.tipo = 0;
 				Items.Add(aa);
 			}
 

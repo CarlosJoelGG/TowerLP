@@ -24,6 +24,7 @@ public class escuadronesshop : MonoBehaviour
     }
     public void llenar(escuadron a)
     {
+        
         datos = a;
         descripcionS = a.descripcion;
         string[] b = a.precio.Split('-');
@@ -38,11 +39,10 @@ public class escuadronesshop : MonoBehaviour
     {
         int aux2 = 0;
         GameObject aux = GameObject.Find("BD");
-        for (int i = 0; i < aux.GetComponent<BD>().SoldadosEscuadrones.Count; i++)
-        {
-            aux2 += aux.GetComponent<BD>().SoldadosEscuadrones[i].cantidad;
-        }
-        cantidad.text = aux2 + "/" + 5;
+
+            aux2 += aux.GetComponent<BD>().SoldadosEscuadrones[tipo_de_soldado].cantidad;
+        
+        cantidad.text = aux2+"";
         descripcion.text = descripcionS;
         woodprecio.text = precioW + "";
         coinprecio.text = precioC + "";

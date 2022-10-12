@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class unidadesEnElMundo : MonoBehaviour
 {
@@ -10,7 +11,10 @@ public class unidadesEnElMundo : MonoBehaviour
     public GameObject UICanvas;
     public cinemaControl Zoom;
     public List<int> count;
-    
+    private float dist;
+    private bool dragging = false;
+    private Vector3 offset;
+    private Transform toDrag;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +24,7 @@ public class unidadesEnElMundo : MonoBehaviour
     }
     public void llenar(int a)
     {
-        if (count[a] > 0)
+        if (count[a] > 0 && index<5)
         {
             targets[index].Llenar(a);
             index++;
@@ -42,8 +46,14 @@ public class unidadesEnElMundo : MonoBehaviour
     {
         bool aux = false;
         for (int i = 0; i < 5; i++)
+        {
+            targets[i].GetComponent<Image>().enabled = false;
+            targets[i].GetComponent<Button>().enabled = false;
+            targets[i].GetComponent<BoxCollider>().enabled = false;
+
             if (targets[i].index != -1)
                 aux = true;
+        }
 
         if (!aux)
             return;
@@ -65,6 +75,47 @@ public class unidadesEnElMundo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+        if (Input.touchCount > 0)
+        {
+            Vector3 woldPosition = new Vector3(0, 0, 0);
+            RaycastHit[] choques = Physics.RaycastAll(Camera.main.ScreenPointToRay(Input.mousePosition));
+            if (Input.touches[0].phase == TouchPhase.Began)
+            {
+
+                for (int i = 0; i < choques.Length; i++)
+                {
+                    if (choques[i].transform.tag.Equals("Target"))
+                    {
+                      //  Debug.Log("cho");
+                       // toDrag = choques[i].transform.gameObject.transform;
+                        dragging = true;
+                    }
+
+                }
+
+
+
+            }
+            if (dragging)
+            {
+                for (int i = 0; i < choques.Length; i++)
+                {
+                    if (choques[i].transform.name.Equals("Plane"))
+                    {
+                        woldPosition = choques[i].point;
+                        // woldPosition.y= 5.433464f;
+                        toDrag.position = choques[i].point;
+                    }
+                   
+
+
+                }
+            }
+        }
+        else
+        {
+            dragging = false;
+        }
     }
 }

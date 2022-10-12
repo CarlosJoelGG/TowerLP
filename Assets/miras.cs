@@ -10,6 +10,11 @@ public class miras : MonoBehaviour
     public List<Sprite> lleno;
     public GameObject targ;
     public int index = -1;
+
+    private float dist;
+    private bool dragging = false;
+    private Vector3 offset;
+    private Transform toDrag;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +36,7 @@ public class miras : MonoBehaviour
             GameObject.Find("mundo").GetComponent<unidadesEnElMundo>().quitar();
         }
     }
+   
     public void Llenar(int a)
     {
         index = a;
@@ -39,6 +45,6 @@ public class miras : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

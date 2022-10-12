@@ -12,15 +12,17 @@ TagManager:
   - Ground
   - Canvas
   - playerSistem
+  - plane
+  - Target
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Ground
+  - 
   - Water
   - UI
-  - unit
-  - madera
+  - 
+  - 
   - circulo
   - 
   - 

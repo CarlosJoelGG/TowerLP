@@ -222,6 +222,8 @@ public class BuildingSystem : MonoBehaviour
         misdatos.intLevel++;
         timeBuildRestante = 1;
         bD.MoverObjeto(misdatos, true);
+        bD.people.constructor--;
+        bD.RefrescarUsuario();
 
     }
     private void Update()
@@ -362,7 +364,9 @@ public class BuildingSystem : MonoBehaviour
     public void nextLevel()
     {
         misdatos.Inc = true;
-        misdatos.inicio = DateTime.UtcNow.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss"); 
+        misdatos.inicio = DateTime.UtcNow.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss");
+        bD.people.constructor++;
+        bD.RefrescarUsuario();
     }
 
     private void OnTriggerExit(Collider other)

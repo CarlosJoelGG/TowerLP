@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 423538676180791175}
   m_LocalRotation: {x: -0.48296294, y: 0.12940955, z: 0.22414392, w: 0.8365163}
-  m_LocalPosition: {x: -0.28, y: 0.65, z: -1.09}
+  m_LocalPosition: {x: -0.56, y: 0.07, z: 0.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6180359108938853991}
@@ -70,12 +70,12 @@ SpriteRenderer:
   m_SortingLayerID: -1054618685
   m_SortingLayer: -1
   m_SortingOrder: 2
-  m_Sprite: {fileID: 4985949762647173279, guid: a375761a29f9bf64ab293d0ef895c938,
+  m_Sprite: {fileID: -3910136378823946876, guid: f976425a42b9c4841b908864f82398ea,
     type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 0.27450982}
   m_FlipX: 1
   m_FlipY: 0
-  m_DrawMode: 0
+  m_DrawMode: 1
   m_Size: {x: 2.3, y: 3.82}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
@@ -234,7 +234,7 @@ Transform:
   m_GameObject: {fileID: 6180359108938853985}
   m_LocalRotation: {x: -0.16043007, y: 0.3768696, z: 0.06645231, w: 0.90984374}
   m_LocalPosition: {x: 0.17, y: 0.15, z: 0}
-  m_LocalScale: {x: 0.7483003, y: 0.769089, z: 1}
+  m_LocalScale: {x: 1.9851648, y: 1.1358821, z: 1}
   m_Children:
   - {fileID: 1241394200061212931}
   m_Father: {fileID: 1913578891395002855}
@@ -279,12 +279,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4985949762647173279, guid: a375761a29f9bf64ab293d0ef895c938,
+  m_Sprite: {fileID: -3910136378823946876, guid: f976425a42b9c4841b908864f82398ea,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
-  m_DrawMode: 0
+  m_DrawMode: 1
   m_Size: {x: 2.3, y: 3.82}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
@@ -388,8 +388,10 @@ MonoBehaviour:
   Inc: 0
   recursos: 0
   barraca: 0
-  IAlerta: {fileID: 4985949762647173279, guid: a375761a29f9bf64ab293d0ef895c938, type: 3}
+  IAlerta: {fileID: -3910136378823946876, guid: f976425a42b9c4841b908864f82398ea,
+    type: 3}
   titulo: Montana
+  inicio: 
   MoneyPrice: 0
   WoodPrice: 0
   FoodPrice: 0

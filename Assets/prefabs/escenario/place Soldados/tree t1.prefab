@@ -69,7 +69,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1755620403289448950}
   m_LocalRotation: {x: -0.48296294, y: 0.12940955, z: 0.22414392, w: 0.8365163}
-  m_LocalPosition: {x: -0.15, y: 0.05, z: -0.35}
+  m_LocalPosition: {x: -0.9, y: -0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5222076081648803862}
@@ -114,12 +114,12 @@ SpriteRenderer:
   m_SortingLayerID: -1054618685
   m_SortingLayer: -1
   m_SortingOrder: 2
-  m_Sprite: {fileID: -611222180709461582, guid: a375761a29f9bf64ab293d0ef895c938,
+  m_Sprite: {fileID: 1383840561150506129, guid: f976425a42b9c4841b908864f82398ea,
     type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 0.27450982}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
+  m_DrawMode: 1
   m_Size: {x: 2.3, y: 3.82}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
@@ -234,7 +234,7 @@ Transform:
   m_GameObject: {fileID: 5222076081648803856}
   m_LocalRotation: {x: -0.16043007, y: 0.3768696, z: 0.06645231, w: 0.90984374}
   m_LocalPosition: {x: 0, y: 0.12, z: 0.02}
-  m_LocalScale: {x: 0.7483003, y: 0.769089, z: 1}
+  m_LocalScale: {x: 0.91477, y: 0.7701181, z: 1}
   m_Children:
   - {fileID: 902919123564705650}
   - {fileID: 4909198338148220914}
@@ -280,12 +280,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -611222180709461582, guid: a375761a29f9bf64ab293d0ef895c938,
+  m_Sprite: {fileID: 1383840561150506129, guid: f976425a42b9c4841b908864f82398ea,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
+  m_DrawMode: 1
   m_Size: {x: 2.3, y: 3.82}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
@@ -527,8 +527,10 @@ MonoBehaviour:
   Inc: 1
   recursos: 0
   barraca: 0
-  IAlerta: {fileID: -611222180709461582, guid: a375761a29f9bf64ab293d0ef895c938, type: 3}
+  IAlerta: {fileID: -7228008901330160927, guid: 2659e49e7b8558b49968e1eb42ce1077,
+    type: 3}
   titulo: Arbol
+  inicio: 
   MoneyPrice: 0
   WoodPrice: 0
   FoodPrice: 0

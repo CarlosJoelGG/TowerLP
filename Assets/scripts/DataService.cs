@@ -83,7 +83,9 @@ public class DataService  {
 				Coin = 1500,
 				Exp=0,
 				prim=true,
-				version=a
+				version=a,
+				constructor=0,
+				Maxconstructor=2
 			}
 		});
 	}

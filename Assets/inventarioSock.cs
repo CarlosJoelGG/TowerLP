@@ -15,25 +15,33 @@ public class inventarioSock : MonoBehaviour
     public int rareza = 0;
     public Text nombre, descip,canti,conte;
     public List<Color> colores;
+    public List<Sprite> Rareza;
     public Image fondi;
     public Item objeto;
 
     // Start is called before the first frame update
     void Start()
     {
-        Iniciar();
+     //  Iniciar();
     }
-
+    public void Refrescar()
+    {
+        transform.parent.gameObject.GetComponent<mostrar>().refrescar();
+    }
+    public void Mostrar()
+    {
+        transform.parent.gameObject.GetComponent<mostrar>().AddPropiedades(transform.gameObject);
+    }
     public void Iniciar()
     {//data.GetComponent<BD>();
         data = GameObject.Find("BD");
-        nombre.text = nama;
-        descip.text = descripcion;
+        //nombre.text = nama;
+       // descip.text = descripcion;
         item_imagen.sprite = imagenes[index];
         llenarcontenido();
         canti.text = "" + cantidad;
         conte.text = "" + contenido;
-        fondi.color = colores[rareza];
+        fondi.sprite = Rareza[rareza];
     }
     public void LlenarObjeto(Item a)
     {
@@ -102,7 +110,8 @@ public class inventarioSock : MonoBehaviour
     }
     public void mensajeError()
     {
-        gameObject.transform.parent.gameObject.GetComponent<mensajes>().alerta();
+        //GameObject.Find("Aletas")
+        gameObject.transform.parent.gameObject.GetComponent<mostrar>().alerta();
 
     }
     public void accion()
@@ -158,12 +167,12 @@ public class inventarioSock : MonoBehaviour
         }
         objeto.Cantidad = cantidad;
         data.GetComponent<BD>().refrescarItem(objeto);
-        gameObject.transform.parent.gameObject.GetComponent<Cofre>().Iniciar();
+       // gameObject.transform.parent.gameObject.GetComponent<Cofre>().Iniciar();
     }
     // Update is called once per frame
     void Update()
     {
-        descip.text = descripcion + " " + contenido;
+       // descip.text = descripcion + " " + contenido;
         canti.text = "" + cantidad;
         conte.text = "" + contenido;
     }

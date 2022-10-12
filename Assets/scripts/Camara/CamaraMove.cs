@@ -20,7 +20,8 @@ public class CamaraMove : MonoBehaviour
     public GameObject selector;
 
     
-    public Vector2 limiteZ, limiteX;
+    public Vector2 limiteZ, limiteX, limiteZMax, limiteXMax ,limiteZMin, limiteXMin;
+
     public playerSystem player;
     string playerID;
     public LayerMask layerGround;
@@ -34,13 +35,17 @@ public class CamaraMove : MonoBehaviour
     public bool moveUnits,zoom=false;
     public UnitSpawner spawner;
     public Vector3 point;
-   
+
+    public cinemaControl cine;
     
     private void Start()
     {
         cam = Camera.main;
 
         playerID = player.playerID;
+
+        limiteZMax = limiteZ;
+        limiteXMax = limiteX;
         
     }
 
@@ -90,6 +95,9 @@ public class CamaraMove : MonoBehaviour
 
                         if (!moveUnits)
                         {
+
+
+
                             if (inv)
                             {
                                 transform.Translate(touch1.deltaPosition.x * 0.08f, 0, touch1.deltaPosition.y * 0.08f);
@@ -326,27 +334,76 @@ public class CamaraMove : MonoBehaviour
 
             
         }
-        Vector3 aux = transform.position;
-        if (transform.position.x > limiteX.y)
-        {
-            aux.x = limiteX.y;
-        }
-        if (transform.position.x < limiteX.x)
-        {
-            aux.x = limiteX.x;
-        }
-        if (transform.position.z > limiteZ.y)
-        {
-            aux.z = limiteX.y;
-        }
-        if (transform.position.z < limiteZ.x)
-        {
-            aux.z = limiteX.x;
-        }
-        transform.position = aux;
+
+        
     }
 
+    private void FixedUpdate()
+    {
+        //Carcular limintes segun el zoom 
 
+        if (Input.touchCount > 0)
+        {
+
+            float vc = cine.zSizeMax - cine.zSizeMin;
+
+            float vf = cine.zSize - cine.zSizeMin;
+
+            float va = vc - vf;
+
+            float vh = (vf * 100) / vc;// procentaje de zoom 
+
+
+
+            float acX = limiteXMax.x - limiteXMin.x;
+            float aX = (acX * vh) / 100;
+            float axX = limiteXMax.x - aX;
+
+
+            float acY = limiteXMax.y - limiteXMin.y;
+            float aY = (acY * vh) / 100;
+            float ayX = limiteXMax.y - aY;
+
+
+            limiteX = new Vector2(axX, ayX);
+
+
+
+            float bcX = limiteZMax.x - limiteZMin.x;
+            float bX = (bcX * vh) / 100;
+            float bxX = limiteZMax.x - bX;
+
+            float bcY = limiteZMax.y - limiteZMin.y;
+            float bY = (bcY * vh) / 100;
+            float byX = limiteZMax.y - bY;
+
+            limiteZ = new Vector2(bxX, byX);
+
+
+            Debug.Log(vh + "=" + limiteX + limiteZ);
+
+
+            Vector3 aux = transform.position;
+
+            if (transform.position.x > limiteX.y)
+            {
+                aux.x = limiteX.y;
+            }
+            if (transform.position.x < limiteX.x)
+            {
+                aux.x = limiteX.x;
+            }
+            if (transform.position.z > limiteZ.y)
+            {
+                aux.z = limiteX.y;
+            }
+            if (transform.position.z < limiteZ.x)
+            {
+                aux.z = limiteX.x;
+            }
+            transform.position = aux;
+        }
+    }
     public void Moven()
     {
         move = true;

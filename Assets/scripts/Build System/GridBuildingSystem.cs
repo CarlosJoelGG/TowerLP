@@ -15,7 +15,7 @@ public class GridBuildingSystem : MonoBehaviour
     public bool available = true;
     public static GridBuildingSystem gridBuildingSystem;
     public Ray ray;
-
+    public BD data;
     private Camera cam;
 
     public Transform CamTransform;
@@ -36,6 +36,7 @@ public class GridBuildingSystem : MonoBehaviour
     }
     private void Start()
     {
+        data = GameObject.Find("BD").GetComponent<BD>();
         casas = new List<BuildingSystem>();
     }
     public void MoverOnOff(bool a)
@@ -69,21 +70,25 @@ public class GridBuildingSystem : MonoBehaviour
     public void StartBuilding(BuildingSystem building)
     {
 
-        if (trabajadores < 2)
+        if (data.people.constructor < data.people.Maxconstructor)
         {
             if (building != null)
             {
-                buildFly=null;
+                buildFly = null;
             }
             GameObject.Find("CanvasMain").GetComponent<Ui>().BuildingUi();
             GameObject.Find("camara container").GetComponent<CamaraMove>().MoveOnOff(false);
             CasaPropiedades(-1);
             buildFly = Instantiate(building);
             buildFly.BSinicio();
-            
+
             foot(true);
             firstPoint = true;
-           
+            
+        }
+        else
+        {
+            CancelBuilding();
         }
     }
 
